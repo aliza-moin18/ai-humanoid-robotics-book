@@ -1,0 +1,518 @@
+openapi: 3.0.0
+info:
+  title: ROS 2 Module Content API
+  description: API for managing educational content related to ROS 2 fundamentals for the AI Robotics Technical Book
+  version: 1.0.0
+  contact:
+    name: AI Robotics Book Team
+    email: team@airoboticsbook.example.com
+
+servers:
+  - url: https://api.airoboticsbook.example.com/v1
+    description: Production server for AI Robotics Book content
+
+tags:
+  - name: modules
+    description: Operations related to educational modules
+  - name: chapters
+    description: Operations related to book chapters
+  - name: sections
+    description: Operations related to chapter sections
+  - name: topics
+    description: Operations related to educational topics
+  - name: exercises
+    description: Operations related to lab exercises
+
+paths:
+  /modules/ros2-fundamentals:
+    get:
+      tags:
+        - modules
+      summary: Retrieve the ROS 2 fundamentals module
+      description: Returns detailed information about the ROS 2 fundamentals module
+      operationId: getROS2FundamentalsModule
+      responses:
+        '200':
+          description: Successful response with module details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Module'
+        '404':
+          description: Module not found
+    put:
+      tags:
+        - modules
+      summary: Update the ROS 2 fundamentals module
+      description: Updates the content and metadata of the ROS 2 fundamentals module
+      operationId: updateROS2FundamentalsModule
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Module'
+      responses:
+        '200':
+          description: Successful update
+        '400':
+          description: Invalid input
+        '404':
+          description: Module not found
+
+  /modules/ros2-fundamentals/chapters:
+    get:
+      tags:
+        - chapters
+      summary: List all chapters in the ROS 2 fundamentals module
+      description: Returns a list of all chapters in the ROS 2 fundamentals module
+      operationId: listChapters
+      responses:
+        '200':
+          description: Successful response with list of chapters
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Chapter'
+    post:
+      tags:
+        - chapters
+      summary: Add a new chapter to the ROS 2 fundamentals module
+      description: Creates a new chapter within the ROS 2 fundamentals module
+      operationId: createChapter
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Chapter'
+      responses:
+        '201':
+          description: Chapter created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Chapter'
+        '400':
+          description: Invalid input
+
+  /modules/ros2-fundamentals/chapters/{chapterId}:
+    get:
+      tags:
+        - chapters
+      summary: Retrieve a specific chapter
+      description: Returns detailed information about a specific chapter in the ROS 2 fundamentals module
+      operationId: getChapter
+      parameters:
+        - name: chapterId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Unique identifier of the chapter
+      responses:
+        '200':
+          description: Successful response with chapter details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Chapter'
+        '404':
+          description: Chapter not found
+    put:
+      tags:
+        - chapters
+      summary: Update a specific chapter
+      description: Updates the content and metadata of a specific chapter
+      operationId: updateChapter
+      parameters:
+        - name: chapterId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Unique identifier of the chapter
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Chapter'
+      responses:
+        '200':
+          description: Successful update
+        '400':
+          description: Invalid input
+        '404':
+          description: Chapter not found
+    delete:
+      tags:
+        - chapters
+      summary: Delete a specific chapter
+      description: Removes a chapter from the ROS 2 fundamentals module
+      operationId: deleteChapter
+      parameters:
+        - name: chapterId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Unique identifier of the chapter
+      responses:
+        '204':
+          description: Chapter deleted successfully
+        '404':
+          description: Chapter not found
+
+  /modules/ros2-fundamentals/chapters/{chapterId}/sections:
+    get:
+      tags:
+        - sections
+      summary: List all sections in a chapter
+      description: Returns a list of all sections in a specific chapter
+      operationId: listSections
+      parameters:
+        - name: chapterId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Unique identifier of the chapter
+      responses:
+        '200':
+          description: Successful response with list of sections
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Section'
+    post:
+      tags:
+        - sections
+      summary: Add a new section to a chapter
+      description: Creates a new section within a specific chapter
+      operationId: createSection
+      parameters:
+        - name: chapterId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Unique identifier of the chapter
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Section'
+      responses:
+        '201':
+          description: Section created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Section'
+        '400':
+          description: Invalid input
+
+  /modules/ros2-fundamentals/topics:
+    get:
+      tags:
+        - topics
+      summary: List all topics in the ROS 2 fundamentals module
+      description: Returns a list of all topics covered in the ROS 2 fundamentals module
+      operationId: listTopics
+      responses:
+        '200':
+          description: Successful response with list of topics
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Topic'
+
+  /modules/ros2-fundamentals/exercises:
+    get:
+      tags:
+        - exercises
+      summary: List all exercises in the ROS 2 fundamentals module
+      description: Returns a list of all lab exercises in the ROS 2 fundamentals module
+      operationId: listExercises
+      responses:
+        '200':
+          description: Successful response with list of exercises
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Exercise'
+    post:
+      tags:
+        - exercises
+      summary: Add a new exercise to the module
+      description: Creates a new lab exercise for the ROS 2 fundamentals module
+      operationId: createExercise
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Exercise'
+      responses:
+        '201':
+          description: Exercise created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Exercise'
+        '400':
+          description: Invalid input
+
+components:
+  schemas:
+    Module:
+      type: object
+      required:
+        - moduleId
+        - title
+        - description
+      properties:
+        moduleId:
+          type: string
+          description: Unique identifier for the module
+        title:
+          type: string
+          description: Human-readable title of the module
+        description:
+          type: string
+          description: Brief overview of module content and objectives
+        learningOutcomes:
+          type: array
+          items:
+            $ref: '#/components/schemas/LearningOutcome'
+          description: List of measurable outcomes students should achieve
+        chapters:
+          type: array
+          items:
+            $ref: '#/components/schemas/Chapter'
+          description: Collection of chapters contained in the module
+        prerequisites:
+          type: string
+          description: Knowledge requirements before starting the module
+        createdAt:
+          type: string
+          format: date-time
+          description: Timestamp when the module was created
+        updatedAt:
+          type: string
+          format: date-time
+          description: Timestamp when the module was last updated
+
+    Chapter:
+      type: object
+      required:
+        - chapterId
+        - title
+        - description
+      properties:
+        chapterId:
+          type: string
+          description: Unique identifier for the chapter
+        title:
+          type: string
+          description: Human-readable title of the chapter
+        description:
+          type: string
+          description: Brief overview of chapter content
+        topics:
+          type: array
+          items:
+            $ref: '#/components/schemas/Topic'
+          description: List of key topics covered in the chapter
+        objectives:
+          type: array
+          items:
+            type: string
+          description: Learning objectives specific to this chapter
+        sections:
+          type: array
+          items:
+            $ref: '#/components/schemas/Section'
+          description: Collection of sections within the chapter
+        estimatedDuration:
+          type: integer
+          description: Estimated time in minutes to complete the chapter
+
+    Section:
+      type: object
+      required:
+        - sectionId
+        - title
+        - content
+      properties:
+        sectionId:
+          type: string
+          description: Unique identifier for the section
+        title:
+          type: string
+          description: Human-readable title of the section
+        content:
+          type: string
+          description: Detailed explanation of the topic
+        examples:
+          type: array
+          items:
+            type: string
+          description: Code snippets or practical examples
+        exercises:
+          type: array
+          items:
+            $ref: '#/components/schemas/Exercise'
+          description: Practice problems or lab exercises
+        recommendedReading:
+          type: array
+          items:
+            type: string
+          description: Recommended additional reading materials
+
+    Topic:
+      type: object
+      required:
+        - topicId
+        - name
+        - description
+      properties:
+        topicId:
+          type: string
+          description: Unique identifier for the topic
+        name:
+          type: string
+          description: Name of the topic (e.g., "Nodes", "Topics", "Services")
+        description:
+          type: string
+          description: Detailed explanation of the topic
+        resources:
+          type: array
+          items:
+            $ref: '#/components/schemas/Resource'
+          description: Related documentation, tutorials, or references
+        prerequisites:
+          type: array
+          items:
+            type: string
+          description: Other topics that should be understood first
+        learningObjectives:
+          type: array
+          items:
+            type: string
+          description: Specific learning objectives for this topic
+
+    Resource:
+      type: object
+      required:
+        - resourceId
+        - title
+        - url
+        - type
+      properties:
+        resourceId:
+          type: string
+          description: Unique identifier for the resource
+        title:
+          type: string
+          description: Title of the referenced material
+        authors:
+          type: array
+          items:
+            type: string
+          description: Creators of the referenced material
+        publicationDate:
+          type: string
+          format: date
+          description: When the reference was published
+        type:
+          type: string
+          enum: [documentation, tutorial, academic-paper, video, other]
+          description: Category of the resource
+        url:
+          type: string
+          format: uri
+          description: Link to the resource
+        citation:
+          type: string
+          description: Properly formatted citation in APA/IEEE style
+        relevance:
+          type: string
+          description: Why this reference is relevant to the module
+
+    Exercise:
+      type: object
+      required:
+        - exerciseId
+        - title
+        - description
+        - difficulty
+      properties:
+        exerciseId:
+          type: string
+          description: Unique identifier for the exercise
+        title:
+          type: string
+          description: Brief title of the exercise
+        description:
+          type: string
+          description: Detailed instructions for the exercise
+        difficulty:
+          type: string
+          enum: [beginner, intermediate, advanced]
+          description: Level of complexity
+        requiredComponents:
+          type: array
+          items:
+            type: string
+          description: ROS 2 components needed for the exercise
+        validationSteps:
+          type: array
+          items:
+            type: string
+          description: Steps to verify completion
+        estimatedTime:
+          type: integer
+          description: Time in minutes needed to complete the exercise
+        solution:
+          type: string
+          description: Sample solution for the exercise
+        hints:
+          type: array
+          items:
+            type: string
+          description: Hints to help students complete the exercise
+
+    LearningOutcome:
+      type: object
+      required:
+        - outcomeId
+        - description
+      properties:
+        outcomeId:
+          type: string
+          description: Unique identifier for the outcome
+        description:
+          type: string
+          description: Specific skill or knowledge to be acquired
+        assessmentMethod:
+          type: string
+          description: How the outcome will be validated
+        relatedTopics:
+          type: array
+          items:
+            type: string
+          description: Topics that contribute to this outcome
+        measurable:
+          type: boolean
+          description: Whether the outcome can be objectively measured

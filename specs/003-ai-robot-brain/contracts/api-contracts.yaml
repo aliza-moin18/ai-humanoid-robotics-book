@@ -1,0 +1,480 @@
+# API Contracts: Module 3 - The AI-Robot Brain (NVIDIA Isaac)
+
+## Overview
+
+This document defines the API contracts for the AI-Robot Brain module of the AI Robotics Book project. These contracts outline the interfaces for interacting with the NVIDIA Isaac-based simulation, perception, navigation, and control systems for humanoid robots.
+
+## Simulation Management APIs
+
+### 1. Environment Configuration API
+
+#### POST /environments
+**Description**: Create a new Isaac Sim environment configuration
+
+**Request Body**:
+```json
+{
+  "name": "warehouse_simulation",
+  "description": "Warehouse environment for humanoid robot navigation",
+  "scene_file": "/assets/scenes/warehouse.usd",
+  "physics_settings": {
+    "gravity": [-9.81, 0, 0],
+    "solver_iterations": 10,
+    "fixed_timestep": 0.001
+  },
+  "robot_configurations": [
+    {
+      "name": "humanoid_robot_x1",
+      "model_path": "/assets/robots/humanoid_x1.urdf",
+      "sensor_config": "humanoid_default_sensors"
+    }
+  ]
+}
+```
+
+**Response**:
+```json
+{
+  "id": "env-uuid-12345",
+  "name": "warehouse_simulation",
+  "status": "created",
+  "created_at": "2025-12-15T10:30:00Z",
+  "simulation_ready": true
+}
+```
+
+#### GET /environments/{env_id}
+**Description**: Retrieve details about a specific Isaac Sim environment
+
+**Response**:
+```json
+{
+  "id": "env-uuid-12345",
+  "name": "warehouse_simulation",
+  "description": "Warehouse environment for humanoid robot navigation",
+  "scene_file": "/assets/scenes/warehouse.usd",
+  "physics_settings": {
+    "gravity": [-9.81, 0, 0],
+    "solver_iterations": 10,
+    "fixed_timestep": 0.001
+  },
+  "robot_configurations": [
+    {
+      "name": "humanoid_robot_x1",
+      "model_path": "/assets/robots/humanoid_x1.urdf",
+      "sensor_config": "humanoid_default_sensors"
+    }
+  ],
+  "status": "active",
+  "last_updated": "2025-12-15T10:30:00Z"
+}
+```
+
+### 2. Simulation Control API
+
+#### POST /environments/{env_id}/simulation/start
+**Description**: Start the simulation environment
+
+**Response**:
+```json
+{
+  "status": "started",
+  "timestamp": "2025-12-15T10:30:00Z",
+  "environment_id": "env-uuid-12345",
+  "sim_time_seconds": 0.0
+}
+```
+
+#### POST /environments/{env_id}/simulation/stop
+**Description**: Stop the simulation environment
+
+**Response**:
+```json
+{
+  "status": "stopped",
+  "timestamp": "2025-12-15T10:30:30Z",
+  "environment_id": "env-uuid-12345",
+  "sim_time_seconds": 10.5
+}
+```
+
+#### POST /environments/{env_id}/reset
+**Description**: Reset the simulation to initial state
+
+**Response**:
+```json
+{
+  "status": "reset_complete",
+  "timestamp": "2025-12-15T10:30:45Z",
+  "environment_id": "env-uuid-12345"
+}
+```
+
+## Perception System APIs
+
+### 3. Perception Pipeline Management API
+
+#### POST /perception/pipelines
+**Description**: Create a new perception processing pipeline
+
+**Request Body**:
+```json
+{
+  "name": "vslam_perception_pipeline",
+  "description": "VSLAM-based perception pipeline for humanoid robot",
+  "configuration": {
+    "nodes": [
+      {
+        "name": "front_camera_input",
+        "type": "image_input",
+        "parameters": {
+          "topic": "/head/camera/rgb/image_raw",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "name": "depth_camera_input",
+        "type": "image_input",
+        "parameters": {
+          "topic": "/head/camera/depth/image_raw",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "name": "isaac_ros_vslam",
+        "type": "vslam_processing",
+        "parameters": {
+          "max_features": 1000,
+          "max_descendants": 2
+        }
+      }
+    ],
+    "connections": [
+      {
+        "from": "front_camera_input",
+        "to": "isaac_ros_vslam"
+      },
+      {
+        "from": "depth_camera_input",
+        "to": "isaac_ros_vslam"
+      }
+    ]
+  }
+}
+```
+
+**Response**:
+```json
+{
+  "id": "pipeline-uuid-67890",
+  "name": "vslam_perception_pipeline",
+  "status": "created",
+  "created_at": "2025-12-15T10:35:00Z",
+  "ready": true
+}
+```
+
+#### GET /perception/pipelines/{pipeline_id}
+**Description**: Retrieve perception pipeline configuration
+
+**Response**:
+```json
+{
+  "id": "pipeline-uuid-67890",
+  "name": "vslam_perception_pipeline",
+  "description": "VSLAM-based perception pipeline for humanoid robot",
+  "configuration": {
+    "nodes": [
+      {
+        "name": "front_camera_input",
+        "type": "image_input",
+        "parameters": {
+          "topic": "/head/camera/rgb/image_raw",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "name": "depth_camera_input",
+        "type": "image_input",
+        "parameters": {
+          "topic": "/head/camera/depth/image_raw",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "name": "isaac_ros_vslam",
+        "type": "vslam_processing",
+        "parameters": {
+          "max_features": 1000,
+          "max_descendants": 2
+        }
+      }
+    ],
+    "connections": [
+      {
+        "from": "front_camera_input",
+        "to": "isaac_ros_vslam"
+      },
+      {
+        "from": "depth_camera_input",
+        "to": "isaac_ros_vslam"
+      }
+    ]
+  },
+  "status": "active",
+  "last_updated": "2025-12-15T10:35:00Z"
+}
+```
+
+### 4. Perception Results API
+
+#### GET /perception/pipelines/{pipeline_id}/results/latest
+**Description**: Get the most recent perception results from a pipeline
+
+**Response**:
+```json
+{
+  "pipeline_id": "pipeline-uuid-67890",
+  "timestamp": "2025-12-15T10:45:22Z",
+  "results": {
+    "vslam": {
+      "position": {"x": 1.23, "y": -0.45, "z": 0.67},
+      "orientation": {"x": 0.0, "y": 0.0, "z": 0.707, "w": 0.707},
+      "tracking_state": "GOOD",
+      "keyframes_count": 125,
+      "map_points_count": 3456
+    },
+    "object_detection": {
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.92,
+          "bbox": {"x": 100, "y": 80, "width": 200, "height": 300},
+          "position": {"x": 2.1, "y": -0.5, "z": 0.0}
+        }
+      ]
+    }
+  }
+}
+```
+
+## Navigation System APIs
+
+### 5. Navigation Control API
+
+#### POST /navigation/goals
+**Description**: Send a navigation goal to the humanoid robot
+
+**Request Body**:
+```json
+{
+  "goal_pose": {
+    "position": {"x": 5.0, "y": 2.0, "z": 0.0},
+    "orientation": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0}
+  },
+  "robot_id": "humanoid_robot_x1",
+  "environment_id": "env-uuid-12345",
+  "planner_params": {
+    "allow_unknown": false,
+    "use_start_yaw": true
+  }
+}
+```
+
+**Response**:
+```json
+{
+  "goal_id": "goal-uuid-abc123",
+  "status": "accepted",
+  "timestamp": "2025-12-15T11:00:00Z",
+  "expected_duration": "30s"
+}
+```
+
+#### GET /navigation/goals/{goal_id}/status
+**Description**: Check the status of a navigation goal
+
+**Response**:
+```json
+{
+  "goal_id": "goal-uuid-abc123",
+  "status": "executing",
+  "progress": 0.65,
+  "current_pose": {
+    "position": {"x": 3.2, "y": 1.8, "z": 0.0},
+    "orientation": {"x": 0.0, "y": 0.0, "z": 0.259, "w": 0.966}
+  },
+  "remaining_distance": 2.1,
+  "last_updated": "2025-12-15T11:01:30Z"
+}
+```
+
+#### POST /navigation/goals/{goal_id}/cancel
+**Description**: Cancel a navigation goal
+
+**Response**:
+```json
+{
+  "goal_id": "goal-uuid-abc123",
+  "status": "cancelled",
+  "cancelled_at": "2025-12-15T11:02:00Z",
+  "final_pose": {
+    "position": {"x": 3.8, "y": 1.9, "z": 0.0},
+    "orientation": {"x": 0.0, "y": 0.0, "z": 0.259, "w": 0.966}
+  }
+}
+```
+
+## AI Control System APIs
+
+### 6. AI Brain Control API
+
+#### POST /ai-control/systems
+**Description**: Initialize a new AI control system
+
+**Request Body**:
+```json
+{
+  "name": "humanoid_ai_brain",
+  "description": "AI control system for humanoid navigation and perception tasks",
+  "configuration": {
+    "perception_integration": true,
+    "navigation_integration": true,
+    "learning_approach": "reinforcement_learning",
+    "sim_to_real_approach": "domain_randomization",
+    "control_frequency": 10.0,
+    "safety_limits": {
+      "max_velocity": 1.0,
+      "max_acceleration": 2.0,
+      "torque_limits": [100.0, 100.0, 100.0]
+    }
+  },
+  "training_data": {
+    "synthetic_scenes": [
+      "/assets/training/indoor_scene_1.usd",
+      "/assets/training/warehouse_scene_2.usd"
+    ],
+    "episodes": 10000
+  }
+}
+```
+
+**Response**:
+```json
+{
+  "id": "ai-system-uuid-def456",
+  "name": "humanoid_ai_brain",
+  "status": "initialized",
+  "created_at": "2025-12-15T11:15:00Z",
+  "ready_for_training": true
+}
+```
+
+#### POST /ai-control/systems/{system_id}/train
+**Description**: Start training the AI control system
+
+**Request Body**:
+```json
+{
+  "simulation_environment": "env-uuid-12345",
+  "episodes": 1000,
+  "render_visualization": true
+}
+```
+
+**Response**:
+```json
+{
+  "training_job_id": "train-job-uuid-ghi789",
+  "status": "started",
+  "start_time": "2025-12-15T11:20:00Z",
+  "estimated_completion": "2025-12-15T14:20:00Z",
+  "episodes_total": 1000,
+  "episodes_completed": 0
+}
+```
+
+#### GET /ai-control/systems/{system_id}/performance
+**Description**: Get performance metrics for the AI control system
+
+**Response**:
+```json
+{
+  "system_id": "ai-system-uuid-def456",
+  "metrics": {
+    "success_rate": 0.92,
+    "average_completion_time": 25.4,
+    "collision_rate": 0.03,
+    "energy_efficiency": 0.78,
+    "learning_stability": 0.89
+  },
+  "last_evaluation": "2025-12-15T11:30:00Z",
+  "evaluation_scenario": "complex_warehouse_navigation"
+}
+```
+
+## Sim-to-Real Transfer APIs
+
+### 7. Model Transfer API
+
+#### POST /sim-to-real/transfer
+**Description**: Perform sim-to-real transfer of trained models
+
+**Request Body**:
+```json
+{
+  "trained_model_id": "ai-system-uuid-def456",
+  "target_hardware": {
+    "platform": "nvidia_jetson_orin",
+    "compute_capability": "8.7",
+    "available_memory": "64GB"
+  },
+  "transfer_method": "domain_adaptation",
+  "validation_scenarios": [
+    "real_world_indoor_navigation",
+    "dynamic_obstacle_avoidance"
+  ]
+}
+```
+
+**Response**:
+```json
+{
+  "transfer_job_id": "transfer-uuid-jkl012",
+  "status": "initiated",
+  "start_time": "2025-12-15T12:00:00Z",
+  "estimated_completion": "2025-12-15T12:15:00Z"
+}
+```
+
+#### GET /sim-to-real/transfer/{job_id}/results
+**Description**: Get results of sim-to-real transfer
+
+**Response**:
+```json
+{
+  "job_id": "transfer-uuid-jkl012",
+  "status": "completed",
+  "success": true,
+  "performance_comparison": {
+    "sim_performance": {
+      "success_rate": 0.92,
+      "avg_completion_time": 25.4
+    },
+    "real_performance": {
+      "success_rate": 0.85,
+      "avg_completion_time": 28.7
+    },
+    "degradation_percentage": 7.6
+  },
+  "recommendations": [
+    "Fine-tune perception pipeline for real-world lighting conditions",
+    "Adjust velocity limits for real-world safety margins"
+  ],
+  "report_url": "/reports/transfer-performance-uuid-jkl012.pdf"
+}
+```
