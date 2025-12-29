@@ -1,0 +1,283 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.hero {
+  background: linear-gradient(135deg, #524157 0%, #675373 50%, #4a3050 100%);
+  color: white;
+  padding: 140px 40px 110px; 
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 80vh; 
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.15) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.heroContent {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.heroTitle {
+  font-size: 4.2rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+  text-shadow: 0 6px 12px rgba(0,0,0,0.4);
+  animation: fadeInUp 1s ease-out;
+}
+
+.heroSubtitle {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.95;
+  animation: fadeInUp 1.2s ease-out;
+}
+
+.heroDesc {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+  opacity: 0.9;
+  animation: fadeInUp 1.4s ease-out;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.primaryButton {
+  background-color: white;
+  color: #470e8c;
+  padding: 14px 40px;
+  border-radius: 50px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.primaryButton:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.4);
+  background-color: #f0f0f0;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    padding: 100px 15px 80px;
+  }
+  .heroTitle {
+    font-size: 3.5rem;
+  }
+  .heroSubtitle {
+    font-size: 1.8rem;
+  }
+  .heroDesc {
+    font-size: 1.2rem;
+  }
+  .primaryButton {
+    padding: 16px 40px;
+    font-size: 1.3rem;
+  }
+}
+
+
+/* Modules Section */
+.modulesSection {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2.3rem;
+  margin-bottom: 3rem;
+  color: #000000;
+}
+
+.modulesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.moduleCard {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.moduleCard:hover {
+  transform: translateY(-10px);
+}
+
+.moduleCard h3 {
+  color: #1f1829;
+  margin-bottom: 1rem;
+}
+
+.cardLink {
+  color: #7d49c0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cardLink:hover {
+  text-decoration: underline;
+}
+
+/* Features Section */
+.featuresSection {
+  padding: 80px 0;
+  background: white;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.featureItem {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+.featureItem h3 {
+  color: #4a148c;
+}
+
+/* Quick Start */
+.quickStart {
+  padding: 80px 0;
+  background: #4a148c;
+  color: white;
+  text-align: center;
+}
+
+.quickSteps {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.step {
+  background: rgba(255,255,255,0.15);
+  padding: 2rem;
+  border-radius: 12px;
+  width: 280px;
+}
+
+.step span {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background: #49365a; /* Dark purple */
+  color: white;
+  padding: 50px 0 30px;
+  margin-top: 80px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 30px;
+}
+
+.footerLogo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logoImg {
+  width: 110px;
+  height: auto;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footerLinks a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.9;
+  transition: opacity 0.3s;
+}
+
+.footerLinks a:hover {
+  opacity: 1;
+}
+
+.footerSocial {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footerTop {
+    flex-direction: column;
+    text-align: center;
+  }
+}
