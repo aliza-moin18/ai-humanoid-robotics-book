@@ -1,0 +1,24 @@
+{
+  "id": "module-1-ros2-fundamentals/setup-guide",
+  "title": "ROS 2 Environment Setup",
+  "description": "Overview",
+  "source": "@site/docs/module-1-ros2-fundamentals/setup-guide.md",
+  "sourceDirName": "module-1-ros2-fundamentals",
+  "slug": "/module-1-ros2-fundamentals/setup-guide",
+  "permalink": "/docs/module-1-ros2-fundamentals/setup-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-1-ros2-fundamentals/setup-guide.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Module 1: The Robotic Nervous System (ROS 2)",
+    "permalink": "/docs/module-1-ros2-fundamentals/"
+  },
+  "next": {
+    "title": "Chapter 1: ROS 2 Fundamentals",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-1/"
+  }
+}

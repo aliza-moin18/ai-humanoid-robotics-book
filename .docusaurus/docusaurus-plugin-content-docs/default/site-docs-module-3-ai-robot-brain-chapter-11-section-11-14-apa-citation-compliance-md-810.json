@@ -1,0 +1,27 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-11/section-11-14-apa-citation-compliance",
+  "title": "Chapter 11.14: APA Citation Standards Compliance",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-11/section-11-14-apa-citation-compliance.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-11",
+  "slug": "/module-3-ai-robot-brain/chapter-11/section-11-14-apa-citation-compliance",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-14-apa-citation-compliance",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-3-ai-robot-brain/chapter-11/section-11-14-apa-citation-compliance.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Chapter 11.13: Docusaurus Navigation Structure and User Experience Validation",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-13-navigation-structure-validation"
+  },
+  "next": {
+    "title": "Chapter 11.15: Constitutional Compliance Final Review",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-15-constitutional-compliance-review"
+  }
+}

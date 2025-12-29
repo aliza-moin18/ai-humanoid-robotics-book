@@ -1,0 +1,27 @@
+{
+  "id": "module-1-ros2-fundamentals/chapter-5/designing-complete-applications",
+  "title": "Designing Complete ROS 2 Applications",
+  "description": "Overview",
+  "source": "@site/docs/module-1-ros2-fundamentals/chapter-5/designing-complete-applications.md",
+  "sourceDirName": "module-1-ros2-fundamentals/chapter-5",
+  "slug": "/module-1-ros2-fundamentals/chapter-5/designing-complete-applications",
+  "permalink": "/docs/module-1-ros2-fundamentals/chapter-5/designing-complete-applications",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-1-ros2-fundamentals/chapter-5/designing-complete-applications.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Chapter 5: Applied Robotics Projects",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-5/"
+  },
+  "next": {
+    "title": "Chapter 1: Environment Setup",
+    "permalink": "/docs/module-2-digital-twin/chapter-1/"
+  }
+}

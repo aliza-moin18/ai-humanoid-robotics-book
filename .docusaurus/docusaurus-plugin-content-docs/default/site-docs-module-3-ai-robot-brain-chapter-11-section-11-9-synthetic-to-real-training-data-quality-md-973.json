@@ -1,0 +1,27 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-11/section-11-9-synthetic-to-real-training-data-quality",
+  "title": "Chapter 11.9: Synthetic-to-Real Training Data Quality Metrics",
+  "description": "Introduction",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-11/section-11-9-synthetic-to-real-training-data-quality.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-11",
+  "slug": "/module-3-ai-robot-brain/chapter-11/section-11-9-synthetic-to-real-training-data-quality",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-9-synthetic-to-real-training-data-quality",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-3-ai-robot-brain/chapter-11/section-11-9-synthetic-to-real-training-data-quality.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Chapter 11.8: Sim-to-Real Transfer Assessment Exercises",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-8-sim-to-real-transfer-assessment"
+  },
+  "next": {
+    "title": "Chapter 11.10: Comprehensive Module Assessment",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-10-comprehensive-module-assessment"
+  }
+}

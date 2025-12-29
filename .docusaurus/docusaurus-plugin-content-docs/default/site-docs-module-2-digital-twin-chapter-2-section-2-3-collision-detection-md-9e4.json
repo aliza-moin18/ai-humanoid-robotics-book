@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/chapter-2/section-2-3-collision-detection",
+  "title": "Section 2.3: Collision Detection and Response",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-2/section-2-3-collision-detection.md",
+  "sourceDirName": "module-2-digital-twin/chapter-2",
+  "slug": "/module-2-digital-twin/chapter-2/section-2-3-collision-detection",
+  "permalink": "/docs/module-2-digital-twin/chapter-2/section-2-3-collision-detection",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-2-digital-twin/chapter-2/section-2-3-collision-detection.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Section 2.2: Creating Physical Properties for Humanoid Robots",
+    "permalink": "/docs/module-2-digital-twin/chapter-2/section-2-2-physical-properties"
+  },
+  "next": {
+    "title": "Section 2.4: Parameter Tuning for Realistic Movement",
+    "permalink": "/docs/module-2-digital-twin/chapter-2/section-2-4-parameter-tuning"
+  }
+}

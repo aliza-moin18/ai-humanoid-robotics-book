@@ -1,0 +1,27 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-11/section-11-10-comprehensive-module-assessment",
+  "title": "Chapter 11.10: Comprehensive Module Assessment",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-11/section-11-10-comprehensive-module-assessment.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-11",
+  "slug": "/module-3-ai-robot-brain/chapter-11/section-11-10-comprehensive-module-assessment",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-10-comprehensive-module-assessment",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-3-ai-robot-brain/chapter-11/section-11-10-comprehensive-module-assessment.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Chapter 11.9: Synthetic-to-Real Training Data Quality Metrics",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-9-synthetic-to-real-training-data-quality"
+  },
+  "next": {
+    "title": "Chapter 11.11: Technical Accuracy and Source-Grounding Review",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-11-technical-accuracy-review"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "module-1-ros2-fundamentals/chapter-3/urdf-fundamentals",
+  "title": "URDF Fundamentals",
+  "description": "Overview",
+  "source": "@site/docs/module-1-ros2-fundamentals/chapter-3/urdf-fundamentals.md",
+  "sourceDirName": "module-1-ros2-fundamentals/chapter-3",
+  "slug": "/module-1-ros2-fundamentals/chapter-3/urdf-fundamentals",
+  "permalink": "/docs/module-1-ros2-fundamentals/chapter-3/urdf-fundamentals",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-1-ros2-fundamentals/chapter-3/urdf-fundamentals.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Chapter 3: Robot Description and Modeling",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-3/"
+  },
+  "next": {
+    "title": "Chapter 4: Integration with Simulation",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-4/"
+  }
+}

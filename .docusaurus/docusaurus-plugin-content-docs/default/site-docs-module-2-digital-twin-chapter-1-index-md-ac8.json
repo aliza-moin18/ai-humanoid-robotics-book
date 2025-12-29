@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/chapter-1/index",
+  "title": "Chapter 1: Environment Setup",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-1/index.md",
+  "sourceDirName": "module-2-digital-twin/chapter-1",
+  "slug": "/module-2-digital-twin/chapter-1/",
+  "permalink": "/docs/module-2-digital-twin/chapter-1/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-2-digital-twin/chapter-1/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Designing Complete ROS 2 Applications",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-5/designing-complete-applications"
+  },
+  "next": {
+    "title": "Section 1.1: Gazebo Installation and Configuration",
+    "permalink": "/docs/module-2-digital-twin/chapter-1/section-1-1-gazebo-installation"
+  }
+}

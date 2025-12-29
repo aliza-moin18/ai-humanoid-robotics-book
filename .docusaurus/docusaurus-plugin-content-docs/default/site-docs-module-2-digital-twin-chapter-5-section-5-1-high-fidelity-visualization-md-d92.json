@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/chapter-5/section-5-1-high-fidelity-visualization",
+  "title": "Section 5.1: High-Fidelity Visualization in Unity",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-5/section-5-1-high-fidelity-visualization.md",
+  "sourceDirName": "module-2-digital-twin/chapter-5",
+  "slug": "/module-2-digital-twin/chapter-5/section-5-1-high-fidelity-visualization",
+  "permalink": "/docs/module-2-digital-twin/chapter-5/section-5-1-high-fidelity-visualization",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-2-digital-twin/chapter-5/section-5-1-high-fidelity-visualization.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Section 4.4: Sensor Data Processing and Visualization",
+    "permalink": "/docs/module-2-digital-twin/chapter-4/section-4-4-sensor-data-processing"
+  },
+  "next": {
+    "title": "Section 5.2: Rendering Techniques for Digital Twins",
+    "permalink": "/docs/module-2-digital-twin/chapter-5/section-5-2-rendering-techniques"
+  }
+}

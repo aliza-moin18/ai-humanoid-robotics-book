@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/chapter-2/section-2-2-physical-properties",
+  "title": "Section 2.2: Creating Physical Properties for Humanoid Robots",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-2/section-2-2-physical-properties.md",
+  "sourceDirName": "module-2-digital-twin/chapter-2",
+  "slug": "/module-2-digital-twin/chapter-2/section-2-2-physical-properties",
+  "permalink": "/docs/module-2-digital-twin/chapter-2/section-2-2-physical-properties",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-2-digital-twin/chapter-2/section-2-2-physical-properties.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Section 2.1: Gazebo Physics Engine Concepts",
+    "permalink": "/docs/module-2-digital-twin/chapter-2/section-2-1-gazebo-physics-concepts"
+  },
+  "next": {
+    "title": "Section 2.3: Collision Detection and Response",
+    "permalink": "/docs/module-2-digital-twin/chapter-2/section-2-3-collision-detection"
+  }
+}

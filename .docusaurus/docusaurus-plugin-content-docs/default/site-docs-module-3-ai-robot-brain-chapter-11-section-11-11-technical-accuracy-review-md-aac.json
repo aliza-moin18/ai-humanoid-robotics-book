@@ -1,0 +1,27 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-11/section-11-11-technical-accuracy-review",
+  "title": "Chapter 11.11: Technical Accuracy and Source-Grounding Review",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-11/section-11-11-technical-accuracy-review.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-11",
+  "slug": "/module-3-ai-robot-brain/chapter-11/section-11-11-technical-accuracy-review",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-11-technical-accuracy-review",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-3-ai-robot-brain/chapter-11/section-11-11-technical-accuracy-review.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Chapter 11.10: Comprehensive Module Assessment",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-10-comprehensive-module-assessment"
+  },
+  "next": {
+    "title": "Chapter 11.12: Reproducibility and Testability Verification",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-12-reproducibility-verification"
+  }
+}

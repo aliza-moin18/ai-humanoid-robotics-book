@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/chapter-4/section-4-2-imu-implementation",
+  "title": "Section 4.2: IMU Implementation",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-4/section-4-2-imu-implementation.md",
+  "sourceDirName": "module-2-digital-twin/chapter-4",
+  "slug": "/module-2-digital-twin/chapter-4/section-4-2-imu-implementation",
+  "permalink": "/docs/module-2-digital-twin/chapter-4/section-4-2-imu-implementation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-2-digital-twin/chapter-4/section-4-2-imu-implementation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Section 4.1: LiDAR Simulation in Gazebo",
+    "permalink": "/docs/module-2-digital-twin/chapter-4/section-4-1-lidar-simulation"
+  },
+  "next": {
+    "title": "Section 4.3: Depth Sensor Integration",
+    "permalink": "/docs/module-2-digital-twin/chapter-4/section-4-3-depth-sensor"
+  }
+}

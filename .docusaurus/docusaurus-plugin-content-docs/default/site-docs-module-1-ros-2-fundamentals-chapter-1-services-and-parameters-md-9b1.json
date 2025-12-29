@@ -1,0 +1,27 @@
+{
+  "id": "module-1-ros2-fundamentals/chapter-1/services-and-parameters",
+  "title": "Services and Parameters",
+  "description": "Overview",
+  "source": "@site/docs/module-1-ros2-fundamentals/chapter-1/services-and-parameters.md",
+  "sourceDirName": "module-1-ros2-fundamentals/chapter-1",
+  "slug": "/module-1-ros2-fundamentals/chapter-1/services-and-parameters",
+  "permalink": "/docs/module-1-ros2-fundamentals/chapter-1/services-and-parameters",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-1-ros2-fundamentals/chapter-1/services-and-parameters.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Topics and Message Passing",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-1/topics-and-message-passing"
+  },
+  "next": {
+    "title": "Chapter 2: Advanced Communication Patterns",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-2/"
+  }
+}

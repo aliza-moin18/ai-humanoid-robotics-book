@@ -1,0 +1,27 @@
+{
+  "id": "module-1-ros2-fundamentals/chapter-3/index",
+  "title": "Chapter 3: Robot Description and Modeling",
+  "description": "Overview",
+  "source": "@site/docs/module-1-ros2-fundamentals/chapter-3/index.md",
+  "sourceDirName": "module-1-ros2-fundamentals/chapter-3",
+  "slug": "/module-1-ros2-fundamentals/chapter-3/",
+  "permalink": "/docs/module-1-ros2-fundamentals/chapter-3/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-1-ros2-fundamentals/chapter-3/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Actions for Complex Tasks",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-2/actions-for-complex-tasks"
+  },
+  "next": {
+    "title": "URDF Fundamentals",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-3/urdf-fundamentals"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/chapter-2/index",
+  "title": "Chapter 2: Physics Simulation Fundamentals",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-2/index.md",
+  "sourceDirName": "module-2-digital-twin/chapter-2",
+  "slug": "/module-2-digital-twin/chapter-2/",
+  "permalink": "/docs/module-2-digital-twin/chapter-2/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-2-digital-twin/chapter-2/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Section 1.4: Verification of Installation",
+    "permalink": "/docs/module-2-digital-twin/chapter-1/section-1-4-verification"
+  },
+  "next": {
+    "title": "Section 2.1: Gazebo Physics Engine Concepts",
+    "permalink": "/docs/module-2-digital-twin/chapter-2/section-2-1-gazebo-physics-concepts"
+  }
+}

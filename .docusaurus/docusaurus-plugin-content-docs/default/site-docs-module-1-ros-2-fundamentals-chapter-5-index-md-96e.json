@@ -1,0 +1,27 @@
+{
+  "id": "module-1-ros2-fundamentals/chapter-5/index",
+  "title": "Chapter 5: Applied Robotics Projects",
+  "description": "Overview",
+  "source": "@site/docs/module-1-ros2-fundamentals/chapter-5/index.md",
+  "sourceDirName": "module-1-ros2-fundamentals/chapter-5",
+  "slug": "/module-1-ros2-fundamentals/chapter-5/",
+  "permalink": "/docs/module-1-ros2-fundamentals/chapter-5/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-1-ros2-fundamentals/chapter-5/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "ROS 2 and Gazebo Integration",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-4/ros2-gazebo-integration"
+  },
+  "next": {
+    "title": "Designing Complete ROS 2 Applications",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-5/designing-complete-applications"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/chapter-3/section-3-4-environmental-physics",
+  "title": "Section 3.4: Environmental Physics Simulation",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-3/section-3-4-environmental-physics.md",
+  "sourceDirName": "module-2-digital-twin/chapter-3",
+  "slug": "/module-2-digital-twin/chapter-3/section-3-4-environmental-physics",
+  "permalink": "/docs/module-2-digital-twin/chapter-3/section-3-4-environmental-physics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-2-digital-twin/chapter-3/section-3-4-environmental-physics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Section 3.3: Joint and Link Configurations",
+    "permalink": "/docs/module-2-digital-twin/chapter-3/section-3-3-joint-link-configurations"
+  },
+  "next": {
+    "title": "Section 4.1: LiDAR Simulation in Gazebo",
+    "permalink": "/docs/module-2-digital-twin/chapter-4/section-4-1-lidar-simulation"
+  }
+}

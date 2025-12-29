@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/chapter-1/section-1-3-integration",
+  "title": "Section 1.3: Integration between Gazebo and Unity",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-1/section-1-3-integration.md",
+  "sourceDirName": "module-2-digital-twin/chapter-1",
+  "slug": "/module-2-digital-twin/chapter-1/section-1-3-integration",
+  "permalink": "/docs/module-2-digital-twin/chapter-1/section-1-3-integration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-2-digital-twin/chapter-1/section-1-3-integration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Section 1.2: Unity Installation and Configuration",
+    "permalink": "/docs/module-2-digital-twin/chapter-1/section-1-2-unity-installation"
+  },
+  "next": {
+    "title": "Section 1.4: Verification of Installation",
+    "permalink": "/docs/module-2-digital-twin/chapter-1/section-1-4-verification"
+  }
+}

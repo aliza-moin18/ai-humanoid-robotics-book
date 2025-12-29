@@ -1,0 +1,27 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-11/section-11-3-model-deployment-on-edge-hardware",
+  "title": "Chapter 11.3: Model Deployment on Edge Hardware",
+  "description": "Introduction",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-11/section-11-3-model-deployment-on-edge-hardware.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-11",
+  "slug": "/module-3-ai-robot-brain/chapter-11/section-11-3-model-deployment-on-edge-hardware",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-3-model-deployment-on-edge-hardware",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-3-ai-robot-brain/chapter-11/section-11-3-model-deployment-on-edge-hardware.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Chapter 11.2: Domain Randomization in Isaac Sim",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-2-domain-randomization-in-isaac-sim"
+  },
+  "next": {
+    "title": "Chapter 11.4: Lab: Sim-to-Real Transfer",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-4-lab-sim-to-real-transfer"
+  }
+}

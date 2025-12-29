@@ -1,0 +1,27 @@
+{
+  "id": "module-1-ros2-fundamentals/chapter-1/nodes-and-processes",
+  "title": "Nodes and Processes",
+  "description": "Overview",
+  "source": "@site/docs/module-1-ros2-fundamentals/chapter-1/nodes-and-processes.md",
+  "sourceDirName": "module-1-ros2-fundamentals/chapter-1",
+  "slug": "/module-1-ros2-fundamentals/chapter-1/nodes-and-processes",
+  "permalink": "/docs/module-1-ros2-fundamentals/chapter-1/nodes-and-processes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-1-ros2-fundamentals/chapter-1/nodes-and-processes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Introduction to ROS 2 Architecture",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-1/introduction-to-ros2"
+  },
+  "next": {
+    "title": "Topics and Message Passing",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-1/topics-and-message-passing"
+  }
+}

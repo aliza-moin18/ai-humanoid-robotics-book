@@ -1,0 +1,27 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-11/section-11-13-navigation-structure-validation",
+  "title": "Chapter 11.13: Docusaurus Navigation Structure and User Experience Validation",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-11/section-11-13-navigation-structure-validation.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-11",
+  "slug": "/module-3-ai-robot-brain/chapter-11/section-11-13-navigation-structure-validation",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-13-navigation-structure-validation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-3-ai-robot-brain/chapter-11/section-11-13-navigation-structure-validation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Chapter 11.12: Reproducibility and Testability Verification",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-12-reproducibility-verification"
+  },
+  "next": {
+    "title": "Chapter 11.14: APA Citation Standards Compliance",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-14-apa-citation-compliance"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/chapter-1/section-1-1-gazebo-installation",
+  "title": "Section 1.1: Gazebo Installation and Configuration",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-1/section-1-1-gazebo-installation.md",
+  "sourceDirName": "module-2-digital-twin/chapter-1",
+  "slug": "/module-2-digital-twin/chapter-1/section-1-1-gazebo-installation",
+  "permalink": "/docs/module-2-digital-twin/chapter-1/section-1-1-gazebo-installation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-2-digital-twin/chapter-1/section-1-1-gazebo-installation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Chapter 1: Environment Setup",
+    "permalink": "/docs/module-2-digital-twin/chapter-1/"
+  },
+  "next": {
+    "title": "Section 1.2: Unity Installation and Configuration",
+    "permalink": "/docs/module-2-digital-twin/chapter-1/section-1-2-unity-installation"
+  }
+}

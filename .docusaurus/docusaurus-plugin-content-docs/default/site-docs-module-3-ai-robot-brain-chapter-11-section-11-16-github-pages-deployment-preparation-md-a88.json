@@ -1,0 +1,27 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-11/section-11-16-github-pages-deployment-preparation",
+  "title": "Chapter 11.16: GitHub Pages Deployment Preparation",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-11/section-11-16-github-pages-deployment-preparation.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-11",
+  "slug": "/module-3-ai-robot-brain/chapter-11/section-11-16-github-pages-deployment-preparation",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-16-github-pages-deployment-preparation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-3-ai-robot-brain/chapter-11/section-11-16-github-pages-deployment-preparation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Chapter 11.15: Constitutional Compliance Final Review",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-15-constitutional-compliance-review"
+  },
+  "next": {
+    "title": "Chapter 11.17: Known Limitations and Future Enhancement Opportunities",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-17-known-limitations-and-future-enhancements"
+  }
+}

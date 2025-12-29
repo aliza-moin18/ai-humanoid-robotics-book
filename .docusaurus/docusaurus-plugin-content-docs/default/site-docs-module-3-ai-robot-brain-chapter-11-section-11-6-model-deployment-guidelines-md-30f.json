@@ -1,0 +1,27 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-11/section-11-6-model-deployment-guidelines",
+  "title": "Chapter 11.6: Model Deployment Guidelines for Jetson Hardware",
+  "description": "Introduction",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-11/section-11-6-model-deployment-guidelines.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-11",
+  "slug": "/module-3-ai-robot-brain/chapter-11/section-11-6-model-deployment-guidelines",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-6-model-deployment-guidelines",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-3-ai-robot-brain/chapter-11/section-11-6-model-deployment-guidelines.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Chapter 11.5: Domain Randomization Techniques for Isaac Sim",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-5-domain-randomization-techniques"
+  },
+  "next": {
+    "title": "Chapter 11.7: Performance Validation Methods for Real-World Scenarios",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-7-performance-validation-methods"
+  }
+}

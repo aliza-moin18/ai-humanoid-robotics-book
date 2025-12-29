@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/chapter-3/section-3-3-joint-link-configurations",
+  "title": "Section 3.3: Joint and Link Configurations",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-3/section-3-3-joint-link-configurations.md",
+  "sourceDirName": "module-2-digital-twin/chapter-3",
+  "slug": "/module-2-digital-twin/chapter-3/section-3-3-joint-link-configurations",
+  "permalink": "/docs/module-2-digital-twin/chapter-3/section-3-3-joint-link-configurations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-2-digital-twin/chapter-3/section-3-3-joint-link-configurations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Section 3.2: Physics Parameters in Gazebo",
+    "permalink": "/docs/module-2-digital-twin/chapter-3/section-3-2-physics-parameters"
+  },
+  "next": {
+    "title": "Section 3.4: Environmental Physics Simulation",
+    "permalink": "/docs/module-2-digital-twin/chapter-3/section-3-4-environmental-physics"
+  }
+}

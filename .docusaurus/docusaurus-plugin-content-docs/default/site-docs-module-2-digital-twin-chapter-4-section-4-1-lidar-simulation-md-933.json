@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/chapter-4/section-4-1-lidar-simulation",
+  "title": "Section 4.1: LiDAR Simulation in Gazebo",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-4/section-4-1-lidar-simulation.md",
+  "sourceDirName": "module-2-digital-twin/chapter-4",
+  "slug": "/module-2-digital-twin/chapter-4/section-4-1-lidar-simulation",
+  "permalink": "/docs/module-2-digital-twin/chapter-4/section-4-1-lidar-simulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-2-digital-twin/chapter-4/section-4-1-lidar-simulation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Section 3.4: Environmental Physics Simulation",
+    "permalink": "/docs/module-2-digital-twin/chapter-3/section-3-4-environmental-physics"
+  },
+  "next": {
+    "title": "Section 4.2: IMU Implementation",
+    "permalink": "/docs/module-2-digital-twin/chapter-4/section-4-2-imu-implementation"
+  }
+}

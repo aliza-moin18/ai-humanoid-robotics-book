@@ -1,0 +1,298 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "module-1-ros2-fundamentals/index",
+          "docs": [
+            {
+              "id": "module-1-ros2-fundamentals/chapter-1/index",
+              "path": "/docs/module-1-ros2-fundamentals/chapter-1/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-1-ros2-fundamentals/chapter-1/introduction-to-ros2",
+              "path": "/docs/module-1-ros2-fundamentals/chapter-1/introduction-to-ros2",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-1-ros2-fundamentals/chapter-1/nodes-and-processes",
+              "path": "/docs/module-1-ros2-fundamentals/chapter-1/nodes-and-processes",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-1-ros2-fundamentals/chapter-1/services-and-parameters",
+              "path": "/docs/module-1-ros2-fundamentals/chapter-1/services-and-parameters",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-1-ros2-fundamentals/chapter-1/topics-and-message-passing",
+              "path": "/docs/module-1-ros2-fundamentals/chapter-1/topics-and-message-passing",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-1-ros2-fundamentals/chapter-2/actions-for-complex-tasks",
+              "path": "/docs/module-1-ros2-fundamentals/chapter-2/actions-for-complex-tasks",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-1-ros2-fundamentals/chapter-2/index",
+              "path": "/docs/module-1-ros2-fundamentals/chapter-2/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-1-ros2-fundamentals/chapter-3/index",
+              "path": "/docs/module-1-ros2-fundamentals/chapter-3/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-1-ros2-fundamentals/chapter-3/urdf-fundamentals",
+              "path": "/docs/module-1-ros2-fundamentals/chapter-3/urdf-fundamentals",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-1-ros2-fundamentals/chapter-4/index",
+              "path": "/docs/module-1-ros2-fundamentals/chapter-4/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-1-ros2-fundamentals/chapter-4/ros2-gazebo-integration",
+              "path": "/docs/module-1-ros2-fundamentals/chapter-4/ros2-gazebo-integration",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-1-ros2-fundamentals/chapter-5/designing-complete-applications",
+              "path": "/docs/module-1-ros2-fundamentals/chapter-5/designing-complete-applications",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-1-ros2-fundamentals/chapter-5/index",
+              "path": "/docs/module-1-ros2-fundamentals/chapter-5/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-1-ros2-fundamentals/index",
+              "path": "/docs/module-1-ros2-fundamentals/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-1-ros2-fundamentals/setup-guide",
+              "path": "/docs/module-1-ros2-fundamentals/setup-guide",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-1/index",
+              "path": "/docs/module-2-digital-twin/chapter-1/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-1/section-1-1-gazebo-installation",
+              "path": "/docs/module-2-digital-twin/chapter-1/section-1-1-gazebo-installation",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-1/section-1-2-unity-installation",
+              "path": "/docs/module-2-digital-twin/chapter-1/section-1-2-unity-installation",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-1/section-1-3-integration",
+              "path": "/docs/module-2-digital-twin/chapter-1/section-1-3-integration",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-1/section-1-4-verification",
+              "path": "/docs/module-2-digital-twin/chapter-1/section-1-4-verification",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-2/index",
+              "path": "/docs/module-2-digital-twin/chapter-2/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-2/section-2-1-gazebo-physics-concepts",
+              "path": "/docs/module-2-digital-twin/chapter-2/section-2-1-gazebo-physics-concepts",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-2/section-2-2-physical-properties",
+              "path": "/docs/module-2-digital-twin/chapter-2/section-2-2-physical-properties",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-2/section-2-3-collision-detection",
+              "path": "/docs/module-2-digital-twin/chapter-2/section-2-3-collision-detection",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-2/section-2-4-parameter-tuning",
+              "path": "/docs/module-2-digital-twin/chapter-2/section-2-4-parameter-tuning",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-3/index",
+              "path": "/docs/module-2-digital-twin/chapter-3/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-3/section-3-1-urdf-sdf-models",
+              "path": "/docs/module-2-digital-twin/chapter-3/section-3-1-urdf-sdf-models",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-3/section-3-2-physics-parameters",
+              "path": "/docs/module-2-digital-twin/chapter-3/section-3-2-physics-parameters",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-3/section-3-3-joint-link-configurations",
+              "path": "/docs/module-2-digital-twin/chapter-3/section-3-3-joint-link-configurations",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-3/section-3-4-environmental-physics",
+              "path": "/docs/module-2-digital-twin/chapter-3/section-3-4-environmental-physics",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-4/section-4-1-lidar-simulation",
+              "path": "/docs/module-2-digital-twin/chapter-4/section-4-1-lidar-simulation",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-4/section-4-2-imu-implementation",
+              "path": "/docs/module-2-digital-twin/chapter-4/section-4-2-imu-implementation",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-4/section-4-3-depth-sensor",
+              "path": "/docs/module-2-digital-twin/chapter-4/section-4-3-depth-sensor",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-4/section-4-4-sensor-data-processing",
+              "path": "/docs/module-2-digital-twin/chapter-4/section-4-4-sensor-data-processing",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-5/section-5-1-high-fidelity-visualization",
+              "path": "/docs/module-2-digital-twin/chapter-5/section-5-1-high-fidelity-visualization",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-5/section-5-2-rendering-techniques",
+              "path": "/docs/module-2-digital-twin/chapter-5/section-5-2-rendering-techniques",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-5/section-5-3-human-robot-interaction",
+              "path": "/docs/module-2-digital-twin/chapter-5/section-5-3-human-robot-interaction",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-11/section-11-1-sim-to-real-transfer-techniques",
+              "path": "/docs/module-3-ai-robot-brain/chapter-11/section-11-1-sim-to-real-transfer-techniques",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-11/section-11-10-comprehensive-module-assessment",
+              "path": "/docs/module-3-ai-robot-brain/chapter-11/section-11-10-comprehensive-module-assessment",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-11/section-11-11-technical-accuracy-review",
+              "path": "/docs/module-3-ai-robot-brain/chapter-11/section-11-11-technical-accuracy-review",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-11/section-11-12-reproducibility-verification",
+              "path": "/docs/module-3-ai-robot-brain/chapter-11/section-11-12-reproducibility-verification",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-11/section-11-13-navigation-structure-validation",
+              "path": "/docs/module-3-ai-robot-brain/chapter-11/section-11-13-navigation-structure-validation",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-11/section-11-14-apa-citation-compliance",
+              "path": "/docs/module-3-ai-robot-brain/chapter-11/section-11-14-apa-citation-compliance",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-11/section-11-15-constitutional-compliance-review",
+              "path": "/docs/module-3-ai-robot-brain/chapter-11/section-11-15-constitutional-compliance-review",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-11/section-11-16-github-pages-deployment-preparation",
+              "path": "/docs/module-3-ai-robot-brain/chapter-11/section-11-16-github-pages-deployment-preparation",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-11/section-11-17-known-limitations-and-future-enhancements",
+              "path": "/docs/module-3-ai-robot-brain/chapter-11/section-11-17-known-limitations-and-future-enhancements",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-11/section-11-2-domain-randomization-in-isaac-sim",
+              "path": "/docs/module-3-ai-robot-brain/chapter-11/section-11-2-domain-randomization-in-isaac-sim",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-11/section-11-3-model-deployment-on-edge-hardware",
+              "path": "/docs/module-3-ai-robot-brain/chapter-11/section-11-3-model-deployment-on-edge-hardware",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-11/section-11-4-lab-sim-to-real-transfer",
+              "path": "/docs/module-3-ai-robot-brain/chapter-11/section-11-4-lab-sim-to-real-transfer",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-11/section-11-5-domain-randomization-techniques",
+              "path": "/docs/module-3-ai-robot-brain/chapter-11/section-11-5-domain-randomization-techniques",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-11/section-11-6-model-deployment-guidelines",
+              "path": "/docs/module-3-ai-robot-brain/chapter-11/section-11-6-model-deployment-guidelines",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-11/section-11-7-performance-validation-methods",
+              "path": "/docs/module-3-ai-robot-brain/chapter-11/section-11-7-performance-validation-methods",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-11/section-11-8-sim-to-real-transfer-assessment",
+              "path": "/docs/module-3-ai-robot-brain/chapter-11/section-11-8-sim-to-real-transfer-assessment",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-11/section-11-9-synthetic-to-real-training-data-quality",
+              "path": "/docs/module-3-ai-robot-brain/chapter-11/section-11-9-synthetic-to-real-training-data-quality",
+              "sidebar": "docsSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docsSidebar": {
+              "link": {
+                "path": "/docs/module-1-ros2-fundamentals/",
+                "label": "module-1-ros2-fundamentals/index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

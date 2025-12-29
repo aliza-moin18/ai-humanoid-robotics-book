@@ -1,0 +1,27 @@
+{
+  "id": "module-1-ros2-fundamentals/chapter-1/index",
+  "title": "Chapter 1: ROS 2 Fundamentals",
+  "description": "Overview",
+  "source": "@site/docs/module-1-ros2-fundamentals/chapter-1/index.md",
+  "sourceDirName": "module-1-ros2-fundamentals/chapter-1",
+  "slug": "/module-1-ros2-fundamentals/chapter-1/",
+  "permalink": "/docs/module-1-ros2-fundamentals/chapter-1/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-1-ros2-fundamentals/chapter-1/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "ROS 2 Environment Setup",
+    "permalink": "/docs/module-1-ros2-fundamentals/setup-guide"
+  },
+  "next": {
+    "title": "Introduction to ROS 2 Architecture",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-1/introduction-to-ros2"
+  }
+}

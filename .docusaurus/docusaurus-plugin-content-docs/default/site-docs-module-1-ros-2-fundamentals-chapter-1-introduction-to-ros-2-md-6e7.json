@@ -1,0 +1,27 @@
+{
+  "id": "module-1-ros2-fundamentals/chapter-1/introduction-to-ros2",
+  "title": "Introduction to ROS 2 Architecture",
+  "description": "Overview",
+  "source": "@site/docs/module-1-ros2-fundamentals/chapter-1/introduction-to-ros2.md",
+  "sourceDirName": "module-1-ros2-fundamentals/chapter-1",
+  "slug": "/module-1-ros2-fundamentals/chapter-1/introduction-to-ros2",
+  "permalink": "/docs/module-1-ros2-fundamentals/chapter-1/introduction-to-ros2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-1-ros2-fundamentals/chapter-1/introduction-to-ros2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Chapter 1: ROS 2 Fundamentals",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-1/"
+  },
+  "next": {
+    "title": "Nodes and Processes",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-1/nodes-and-processes"
+  }
+}

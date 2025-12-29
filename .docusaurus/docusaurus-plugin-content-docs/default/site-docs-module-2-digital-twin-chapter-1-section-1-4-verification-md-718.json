@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/chapter-1/section-1-4-verification",
+  "title": "Section 1.4: Verification of Installation",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-1/section-1-4-verification.md",
+  "sourceDirName": "module-2-digital-twin/chapter-1",
+  "slug": "/module-2-digital-twin/chapter-1/section-1-4-verification",
+  "permalink": "/docs/module-2-digital-twin/chapter-1/section-1-4-verification",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-2-digital-twin/chapter-1/section-1-4-verification.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Section 1.3: Integration between Gazebo and Unity",
+    "permalink": "/docs/module-2-digital-twin/chapter-1/section-1-3-integration"
+  },
+  "next": {
+    "title": "Chapter 2: Physics Simulation Fundamentals",
+    "permalink": "/docs/module-2-digital-twin/chapter-2/"
+  }
+}

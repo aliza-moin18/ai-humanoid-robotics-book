@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/chapter-2/section-2-4-parameter-tuning",
+  "title": "Section 2.4: Parameter Tuning for Realistic Movement",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-2/section-2-4-parameter-tuning.md",
+  "sourceDirName": "module-2-digital-twin/chapter-2",
+  "slug": "/module-2-digital-twin/chapter-2/section-2-4-parameter-tuning",
+  "permalink": "/docs/module-2-digital-twin/chapter-2/section-2-4-parameter-tuning",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-2-digital-twin/chapter-2/section-2-4-parameter-tuning.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Section 2.3: Collision Detection and Response",
+    "permalink": "/docs/module-2-digital-twin/chapter-2/section-2-3-collision-detection"
+  },
+  "next": {
+    "title": "Chapter 3: Gazebo-Specific Physics and Models",
+    "permalink": "/docs/module-2-digital-twin/chapter-3/"
+  }
+}

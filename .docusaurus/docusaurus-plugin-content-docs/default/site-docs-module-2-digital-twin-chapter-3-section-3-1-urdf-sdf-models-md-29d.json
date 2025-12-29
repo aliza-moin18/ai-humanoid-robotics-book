@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/chapter-3/section-3-1-urdf-sdf-models",
+  "title": "Section 3.1: URDF and SDF Model Creation",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-3/section-3-1-urdf-sdf-models.md",
+  "sourceDirName": "module-2-digital-twin/chapter-3",
+  "slug": "/module-2-digital-twin/chapter-3/section-3-1-urdf-sdf-models",
+  "permalink": "/docs/module-2-digital-twin/chapter-3/section-3-1-urdf-sdf-models",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-2-digital-twin/chapter-3/section-3-1-urdf-sdf-models.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Chapter 3: Gazebo-Specific Physics and Models",
+    "permalink": "/docs/module-2-digital-twin/chapter-3/"
+  },
+  "next": {
+    "title": "Section 3.2: Physics Parameters in Gazebo",
+    "permalink": "/docs/module-2-digital-twin/chapter-3/section-3-2-physics-parameters"
+  }
+}

@@ -1,0 +1,33 @@
+// {
+//   // This file is not used in compilation. It is here just for a nice editor experience.
+//   "extends": "@docusaurus/tsconfig",
+//   "compilerOptions": {
+//     "baseUrl": "."
+//   },
+//   "exclude": [".docusaurus", "build"]
+// }
+
+
+{
+  "extends": "@docusaurus/tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react-jsx",                    // ← Yeh add karo: JSX support ke liye
+    "esModuleInterop": true,               // ← Yeh add karo: React default import fix ke liye
+    "allowSyntheticDefaultImports": true,  // Optional, lekin helpful
+    "skipLibCheck": true,                  // Type errors skip karne ke liye
+    "moduleResolution": "node",            // Better module resolution
+    "target": "ES2020",
+    "module": "ESNext"
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "docusaurus.config.ts"
+  ],
+  "exclude": [
+    ".docusaurus",
+    "build",
+    "node_modules"
+  ]
+}

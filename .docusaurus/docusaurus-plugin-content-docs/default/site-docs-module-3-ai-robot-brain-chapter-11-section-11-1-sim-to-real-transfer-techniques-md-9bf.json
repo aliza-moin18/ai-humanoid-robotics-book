@@ -1,0 +1,27 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-11/section-11-1-sim-to-real-transfer-techniques",
+  "title": "Chapter 11.1: Sim-to-Real Transfer Techniques",
+  "description": "Introduction",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-11/section-11-1-sim-to-real-transfer-techniques.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-11",
+  "slug": "/module-3-ai-robot-brain/chapter-11/section-11-1-sim-to-real-transfer-techniques",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-1-sim-to-real-transfer-techniques",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-3-ai-robot-brain/chapter-11/section-11-1-sim-to-real-transfer-techniques.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Section 5.3: Human-Robot Interaction Interfaces",
+    "permalink": "/docs/module-2-digital-twin/chapter-5/section-5-3-human-robot-interaction"
+  },
+  "next": {
+    "title": "Chapter 11.2: Domain Randomization in Isaac Sim",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-2-domain-randomization-in-isaac-sim"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-11/section-11-8-sim-to-real-transfer-assessment",
+  "title": "Chapter 11.8: Sim-to-Real Transfer Assessment Exercises",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-11/section-11-8-sim-to-real-transfer-assessment.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-11",
+  "slug": "/module-3-ai-robot-brain/chapter-11/section-11-8-sim-to-real-transfer-assessment",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-8-sim-to-real-transfer-assessment",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-3-ai-robot-brain/chapter-11/section-11-8-sim-to-real-transfer-assessment.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Chapter 11.7: Performance Validation Methods for Real-World Scenarios",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-7-performance-validation-methods"
+  },
+  "next": {
+    "title": "Chapter 11.9: Synthetic-to-Real Training Data Quality Metrics",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-9-synthetic-to-real-training-data-quality"
+  }
+}

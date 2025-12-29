@@ -4,16 +4,30 @@
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
+  
   "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@docusaurus/core": "^3.9.2",
     "@docusaurus/preset-classic": "^3.9.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliza-moin18/physical-ai-humanoid-robotics.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/aliza-moin18/physical-ai-humanoid-robotics/issues"
+  },
+  "homepage": "https://github.com/aliza-moin18/physical-ai-humanoid-robotics#readme"
 }

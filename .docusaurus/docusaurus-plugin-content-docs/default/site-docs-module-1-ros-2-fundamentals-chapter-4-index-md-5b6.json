@@ -1,0 +1,27 @@
+{
+  "id": "module-1-ros2-fundamentals/chapter-4/index",
+  "title": "Chapter 4: Integration with Simulation",
+  "description": "Overview",
+  "source": "@site/docs/module-1-ros2-fundamentals/chapter-4/index.md",
+  "sourceDirName": "module-1-ros2-fundamentals/chapter-4",
+  "slug": "/module-1-ros2-fundamentals/chapter-4/",
+  "permalink": "/docs/module-1-ros2-fundamentals/chapter-4/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-1-ros2-fundamentals/chapter-4/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "URDF Fundamentals",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-3/urdf-fundamentals"
+  },
+  "next": {
+    "title": "ROS 2 and Gazebo Integration",
+    "permalink": "/docs/module-1-ros2-fundamentals/chapter-4/ros2-gazebo-integration"
+  }
+}

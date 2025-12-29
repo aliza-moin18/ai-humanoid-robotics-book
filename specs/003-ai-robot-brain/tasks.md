@@ -112,11 +112,11 @@ Enable students to implement navigation systems using Nav2 and Isaac ROS so that
 - [X] T032 [US3] Write Chapter 9.3: Obstacle Avoidance Techniques content
 - [X] T033 [P] [US3] Write Chapter 9.4: Lab: Autonomous Navigation content
 - [X] T034 [P] [US3] Document Nav2 setup procedures in Isaac environment
-- [ ] T035 [P] [US3] Create path planning examples using Isaac tools
-- [ ] T036 [P] [US3] Develop obstacle avoidance implementation guide
-- [ ] T037 [P] [US3] Design complex navigation scenarios for exercises
-- [ ] T038 [US3] Create navigation system assessment exercises
-- [ ] T039 [US3] Develop collision-free path validation criteria
+- [X] T035 [P] [US3] Create path planning examples using Isaac tools
+- [X] T036 [P] [US3] Develop obstacle avoidance implementation guide
+- [X] T037 [P] [US3] Design complex navigation scenarios for exercises
+- [X] T038 [US3] Create navigation system assessment exercises
+- [X] T039 [US3] Develop collision-free path validation criteria
 
 ## Phase 6: [US4] Student Masters AI Control Systems
 
@@ -130,16 +130,16 @@ Enable students to develop AI-powered control systems that integrate perception 
 
 ### Implementation Tasks
 
-- [ ] T040 [US4] Write Chapter 10.1: AI Control Framework Integration content
-- [ ] T041 [US4] Write Chapter 10.2: Behavior Learning with Isaac Gym content
-- [ ] T042 [US4] Write Chapter 10.3: Perception-Action Coordination content
-- [ ] T043 [P] [US4] Write Chapter 10.4: Lab: AI Control System Implementation content
-- [ ] T044 [P] [US4] Document AI control architecture using Isaac tools
-- [ ] T045 [P] [US4] Create intelligent decision-making examples
-- [ ] T046 [P] [US4] Develop adaptive behavior implementation guide
-- [ ] T047 [P] [US4] Design environmental response validation exercises
-- [ ] T048 [US4] Integrate perception and navigation in control system
-- [ ] T049 [US4] Create AI control system assessment criteria
+- [X] T040 [US4] Write Chapter 10.1: AI Control Framework Integration content
+- [X] T041 [US4] Write Chapter 10.2: Behavior Learning with Isaac Gym content
+- [X] T042 [US4] Write Chapter 10.3: Perception-Action Coordination content
+- [X] T043 [P] [US4] Write Chapter 10.4: Lab: AI Control System Implementation content
+- [X] T044 [P] [US4] Document AI control architecture using Isaac tools
+- [X] T045 [P] [US4] Create intelligent decision-making examples
+- [X] T046 [P] [US4] Develop adaptive behavior implementation guide
+- [X] T047 [P] [US4] Design environmental response validation exercises
+- [X] T048 [US4] Integrate perception and navigation in control system
+- [X] T049 [US4] Create AI control system assessment criteria
 
 ## Phase 7: [US5] Student Executes Sim-to-Real Transfer
 
@@ -153,25 +153,25 @@ Enable students to understand and practice sim-to-real transfer techniques so th
 
 ### Implementation Tasks
 
-- [ ] T050 [US5] Write Chapter 11.1: Sim-to-Real Transfer Techniques content
-- [ ] T051 [US5] Write Chapter 11.2: Domain Randomization in Isaac Sim content
-- [ ] T052 [US5] Write Chapter 11.3: Model Deployment on Edge Hardware content
-- [ ] T053 [P] [US5] Write Chapter 11.4: Lab: Sim-to-Real Transfer content
-- [ ] T054 [P] [US5] Document domain randomization techniques for Isaac Sim
-- [ ] T055 [P] [US5] Create model deployment guidelines for Jetson hardware
-- [ ] T056 [P] [US5] Develop performance validation methods for real-world scenarios
-- [ ] T057 [US5] Design sim-to-real transfer assessment exercises
-- [ ] T058 [US5] Document synthetic-to-real training data quality metrics
+- [X] T050 [US5] Write Chapter 11.1: Sim-to-Real Transfer Techniques content
+- [X] T051 [US5] Write Chapter 11.2: Domain Randomization in Isaac Sim content
+- [X] T052 [US5] Write Chapter 11.3: Model Deployment on Edge Hardware content
+- [X] T053 [P] [US5] Write Chapter 11.4: Lab: Sim-to-Real Transfer content
+- [X] T054 [P] [US5] Document domain randomization techniques for Isaac Sim
+- [X] T055 [P] [US5] Create model deployment guidelines for Jetson hardware
+- [X] T056 [P] [US5] Develop performance validation methods for real-world scenarios
+- [X] T057 [US5] Design sim-to-real transfer assessment exercises
+- [X] T058 [US5] Document synthetic-to-real training data quality metrics
 
 ## Phase 8: Polish & Cross-Cutting Concerns
 
 ### Module Completion and Quality Assurance
 
-- [ ] T059 Create comprehensive module assessment covering all learning outcomes
-- [ ] T060 Review all content for technical accuracy and source-grounding compliance
-- [ ] T061 Verify all exercises are reproducible and testable
-- [ ] T062 Validate Docusaurus navigation structure and user experience
-- [ ] T063 Ensure all content follows APA citation standards
-- [ ] T064 Conduct final review for constitutional compliance (technical accuracy, reproducibility)
-- [ ] T065 Prepare module for deployment to GitHub Pages
-- [ ] T066 Document any known limitations or future enhancement opportunities
+- [X] T059 Create comprehensive module assessment covering all learning outcomes
+- [X] T060 Review all content for technical accuracy and source-grounding compliance
+- [X] T061 Verify all exercises are reproducible and testable
+- [X] T062 Validate Docusaurus navigation structure and user experience
+- [X] T063 Ensure all content follows APA citation standards
+- [X] T064 Conduct final review for constitutional compliance (technical accuracy, reproducibility)
+- [X] T065 Prepare module for deployment to GitHub Pages
+- [X] T066 Document any known limitations or future enhancement opportunities

@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/chapter-4/section-4-4-sensor-data-processing",
+  "title": "Section 4.4: Sensor Data Processing and Visualization",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-4/section-4-4-sensor-data-processing.md",
+  "sourceDirName": "module-2-digital-twin/chapter-4",
+  "slug": "/module-2-digital-twin/chapter-4/section-4-4-sensor-data-processing",
+  "permalink": "/docs/module-2-digital-twin/chapter-4/section-4-4-sensor-data-processing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-2-digital-twin/chapter-4/section-4-4-sensor-data-processing.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Section 4.3: Depth Sensor Integration",
+    "permalink": "/docs/module-2-digital-twin/chapter-4/section-4-3-depth-sensor"
+  },
+  "next": {
+    "title": "Section 5.1: High-Fidelity Visualization in Unity",
+    "permalink": "/docs/module-2-digital-twin/chapter-5/section-5-1-high-fidelity-visualization"
+  }
+}

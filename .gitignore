@@ -131,3 +131,13 @@ htmlcov/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Docusaurus generated files
+.docusaurus/
+node_modules/
+build/
+
+# Old/unwanted folders
+my-book/
+docs copy/
+my book/

@@ -1,0 +1,288 @@
+{
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/markdown-page-3d7": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "content": "content---markdown-page-393-028"
+  },
+  "/docs-96e": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-c1b": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-26d": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/module-1-ros2-fundamentals/-7bc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-fundamentals-cde-656"
+  },
+  "/docs/module-1-ros2-fundamentals/chapter-1/-827": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-fundamentals-chapter-1-198-f79"
+  },
+  "/docs/module-1-ros2-fundamentals/chapter-1/introduction-to-ros2-c3a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-fundamentals-chapter-1-introduction-to-ros-26-e-7-b8d"
+  },
+  "/docs/module-1-ros2-fundamentals/chapter-1/nodes-and-processes-9e7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-fundamentals-chapter-1-nodes-and-processes-825-669"
+  },
+  "/docs/module-1-ros2-fundamentals/chapter-1/services-and-parameters-fa0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-fundamentals-chapter-1-services-and-parameters-9-b-1-d98"
+  },
+  "/docs/module-1-ros2-fundamentals/chapter-1/topics-and-message-passing-d7e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-fundamentals-chapter-1-topics-and-message-passing-8-cb-268"
+  },
+  "/docs/module-1-ros2-fundamentals/chapter-2/-390": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-fundamentals-chapter-2-94-e-92f"
+  },
+  "/docs/module-1-ros2-fundamentals/chapter-2/actions-for-complex-tasks-7b6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-fundamentals-chapter-2-actions-for-complex-tasks-1-ba-049"
+  },
+  "/docs/module-1-ros2-fundamentals/chapter-3/-801": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-fundamentals-chapter-3-c-53-141"
+  },
+  "/docs/module-1-ros2-fundamentals/chapter-3/urdf-fundamentals-1b9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-fundamentals-chapter-3-urdf-fundamentalsbc-6-7c2"
+  },
+  "/docs/module-1-ros2-fundamentals/chapter-4/-4a4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-fundamentals-chapter-4-5-b-6-1cd"
+  },
+  "/docs/module-1-ros2-fundamentals/chapter-4/ros2-gazebo-integration-450": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-fundamentals-chapter-4-ros-2-gazebo-integration-3-c-8-2c9"
+  },
+  "/docs/module-1-ros2-fundamentals/chapter-5/-bb6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-fundamentals-chapter-5-96-e-081"
+  },
+  "/docs/module-1-ros2-fundamentals/chapter-5/designing-complete-applications-0ca": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-fundamentals-chapter-5-designing-complete-applications-5-bd-992"
+  },
+  "/docs/module-1-ros2-fundamentals/setup-guide-63d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-fundamentals-setup-guide-85-c-b7f"
+  },
+  "/docs/module-2-digital-twin/chapter-1/-464": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-1-ac-8-7e4"
+  },
+  "/docs/module-2-digital-twin/chapter-1/section-1-1-gazebo-installation-0e3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-1-section-1-1-gazebo-installation-268-32c"
+  },
+  "/docs/module-2-digital-twin/chapter-1/section-1-2-unity-installation-832": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-1-section-1-2-unity-installationad-9-885"
+  },
+  "/docs/module-2-digital-twin/chapter-1/section-1-3-integration-908": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-1-section-1-3-integrationa-1-a-256"
+  },
+  "/docs/module-2-digital-twin/chapter-1/section-1-4-verification-03c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-1-section-1-4-verification-718-ecd"
+  },
+  "/docs/module-2-digital-twin/chapter-2/-c5c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-2-c-3-a-934"
+  },
+  "/docs/module-2-digital-twin/chapter-2/section-2-1-gazebo-physics-concepts-d32": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-2-section-2-1-gazebo-physics-conceptsb-45-aec"
+  },
+  "/docs/module-2-digital-twin/chapter-2/section-2-2-physical-properties-20e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-2-section-2-2-physical-properties-2-b-3-89e"
+  },
+  "/docs/module-2-digital-twin/chapter-2/section-2-3-collision-detection-45d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-2-section-2-3-collision-detection-9-e-4-828"
+  },
+  "/docs/module-2-digital-twin/chapter-2/section-2-4-parameter-tuning-7d7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-2-section-2-4-parameter-tuning-1-f-5-aad"
+  },
+  "/docs/module-2-digital-twin/chapter-3/-3cc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-3-4-d-2-97f"
+  },
+  "/docs/module-2-digital-twin/chapter-3/section-3-1-urdf-sdf-models-4b1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-3-section-3-1-urdf-sdf-models-29-d-296"
+  },
+  "/docs/module-2-digital-twin/chapter-3/section-3-2-physics-parameters-3c1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-3-section-3-2-physics-parametersc-17-427"
+  },
+  "/docs/module-2-digital-twin/chapter-3/section-3-3-joint-link-configurations-778": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-3-section-3-3-joint-link-configurations-77-e-89a"
+  },
+  "/docs/module-2-digital-twin/chapter-3/section-3-4-environmental-physics-8cf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-3-section-3-4-environmental-physics-39-f-046"
+  },
+  "/docs/module-2-digital-twin/chapter-4/section-4-1-lidar-simulation-8e0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-4-section-4-1-lidar-simulation-933-f19"
+  },
+  "/docs/module-2-digital-twin/chapter-4/section-4-2-imu-implementation-cdc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-4-section-4-2-imu-implementation-147-092"
+  },
+  "/docs/module-2-digital-twin/chapter-4/section-4-3-depth-sensor-4b3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-4-section-4-3-depth-sensor-3-b-7-fa5"
+  },
+  "/docs/module-2-digital-twin/chapter-4/section-4-4-sensor-data-processing-9b8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-4-section-4-4-sensor-data-processingeda-11d"
+  },
+  "/docs/module-2-digital-twin/chapter-5/section-5-1-high-fidelity-visualization-630": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-5-section-5-1-high-fidelity-visualizationd-92-ddc"
+  },
+  "/docs/module-2-digital-twin/chapter-5/section-5-2-rendering-techniques-c5c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-5-section-5-2-rendering-techniquesf-5-d-f48"
+  },
+  "/docs/module-2-digital-twin/chapter-5/section-5-3-human-robot-interaction-cfd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-5-section-5-3-human-robot-interactionaba-545"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-11/section-11-1-sim-to-real-transfer-techniques-4b3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-11-section-11-1-sim-to-real-transfer-techniques-9-bf-0e6"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-11/section-11-10-comprehensive-module-assessment-f34": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-11-section-11-10-comprehensive-module-assessment-04-b-a24"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-11/section-11-11-technical-accuracy-review-c3d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-11-section-11-11-technical-accuracy-reviewaac-686"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-11/section-11-12-reproducibility-verification-8f4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-11-section-11-12-reproducibility-verification-3-b-7-c57"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-11/section-11-13-navigation-structure-validation-ae8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-11-section-11-13-navigation-structure-validation-6-a-8-791"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-11/section-11-14-apa-citation-compliance-ad8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-11-section-11-14-apa-citation-compliance-810-de5"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-11/section-11-15-constitutional-compliance-review-b52": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-11-section-11-15-constitutional-compliance-review-424-344"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-11/section-11-16-github-pages-deployment-preparation-be2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-11-section-11-16-github-pages-deployment-preparationa-88-036"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-11/section-11-17-known-limitations-and-future-enhancements-e04": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-11-section-11-17-known-limitations-and-future-enhancements-708-5e6"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-11/section-11-2-domain-randomization-in-isaac-sim-7d1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-11-section-11-2-domain-randomization-in-isaac-simdb-1-566"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-11/section-11-3-model-deployment-on-edge-hardware-1c9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-11-section-11-3-model-deployment-on-edge-hardwarea-48-b83"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-11/section-11-4-lab-sim-to-real-transfer-6b9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-11-section-11-4-lab-sim-to-real-transfer-3-e-9-908"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-11/section-11-5-domain-randomization-techniques-86f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-11-section-11-5-domain-randomization-techniques-9-c-1-18f"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-11/section-11-6-model-deployment-guidelines-419": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-11-section-11-6-model-deployment-guidelines-30-f-d61"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-11/section-11-7-performance-validation-methods-7bf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-11-section-11-7-performance-validation-methodsd-3-d-f84"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-11/section-11-8-sim-to-real-transfer-assessment-205": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-11-section-11-8-sim-to-real-transfer-assessmentfd-1-485"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-11/section-11-9-synthetic-to-real-training-data-quality-3d2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-11-section-11-9-synthetic-to-real-training-data-quality-973-962"
+  },
+  "/-e5f": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}

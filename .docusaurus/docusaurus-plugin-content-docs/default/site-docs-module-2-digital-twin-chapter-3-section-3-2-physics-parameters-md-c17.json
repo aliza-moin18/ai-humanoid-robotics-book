@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/chapter-3/section-3-2-physics-parameters",
+  "title": "Section 3.2: Physics Parameters in Gazebo",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-3/section-3-2-physics-parameters.md",
+  "sourceDirName": "module-2-digital-twin/chapter-3",
+  "slug": "/module-2-digital-twin/chapter-3/section-3-2-physics-parameters",
+  "permalink": "/docs/module-2-digital-twin/chapter-3/section-3-2-physics-parameters",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/docs/module-2-digital-twin/chapter-3/section-3-2-physics-parameters.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Section 3.1: URDF and SDF Model Creation",
+    "permalink": "/docs/module-2-digital-twin/chapter-3/section-3-1-urdf-sdf-models"
+  },
+  "next": {
+    "title": "Section 3.3: Joint and Link Configurations",
+    "permalink": "/docs/module-2-digital-twin/chapter-3/section-3-3-joint-link-configurations"
+  }
+}
