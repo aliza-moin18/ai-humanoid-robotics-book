@@ -10,12 +10,11 @@ const config: Config = {
     v4: true,
   },
   url: 'https://aliza-moin18.github.io',
-  baseUrl: '/ai-humanoid-robotics-book/',  // Yeh important hai GitHub Pages ke liye (repo name ke hisab se)
+  baseUrl: '/ai-humanoid-robotics-book/', 
   organizationName: 'aliza-moin18',
   projectName: 'ai-humanoid-robotics-book',
   
-  // Yeh line add ki hai taake broken links error na de
-  onBrokenLinks: 'warn',  // ya 'ignore' agar strict nahi chahiye
+  onBrokenLinks: 'warn',  
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
