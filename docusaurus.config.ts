@@ -10,7 +10,7 @@ const config: Config = {
     v4: true,
   },
   url: 'https://aliza-moin18.github.io',
-  baseUrl: '/ai-humanoid-robotics-book/', 
+  baseUrl: '/', 
   organizationName: 'aliza-moin18',
   projectName: 'ai-humanoid-robotics-book',
   
