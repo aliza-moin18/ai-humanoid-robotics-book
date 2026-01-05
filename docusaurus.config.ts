@@ -9,10 +9,8 @@ const config: Config = {
   future: {
     v4: true,
   },
-  url: 'https://aliza-moin18.github.io',
-  baseUrl: '/', 
-  organizationName: 'aliza-moin18',
-  projectName: 'ai-humanoid-robotics-book',
+  url: 'https://ai-humanoid-robotics-book-tau.vercel.app/',
+  baseUrl: '/',  
   
   onBrokenLinks: 'warn',  
   onBrokenMarkdownLinks: 'warn',
