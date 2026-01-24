@@ -44,16 +44,21 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '96e'),
+    component: ComponentCreator('/docs', 'd40'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'c1b'),
+        component: ComponentCreator('/docs', '8ce'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '26d'),
+            component: ComponentCreator('/docs', '061'),
             routes: [
+              {
+                path: '/docs/api_documentation',
+                component: ComponentCreator('/docs/api_documentation', 'ffb'),
+                exact: true
+              },
               {
                 path: '/docs/module-1-ros2-fundamentals/',
                 component: ComponentCreator('/docs/module-1-ros2-fundamentals/', '7bc'),
@@ -231,48 +236,6 @@ export default [
               {
                 path: '/docs/module-2-digital-twin/chapter-3/section-3-4-environmental-physics',
                 component: ComponentCreator('/docs/module-2-digital-twin/chapter-3/section-3-4-environmental-physics', '8cf'),
-                exact: true,
-                sidebar: "docsSidebar"
-              },
-              {
-                path: '/docs/module-2-digital-twin/chapter-4/section-4-1-lidar-simulation',
-                component: ComponentCreator('/docs/module-2-digital-twin/chapter-4/section-4-1-lidar-simulation', '8e0'),
-                exact: true,
-                sidebar: "docsSidebar"
-              },
-              {
-                path: '/docs/module-2-digital-twin/chapter-4/section-4-2-imu-implementation',
-                component: ComponentCreator('/docs/module-2-digital-twin/chapter-4/section-4-2-imu-implementation', 'cdc'),
-                exact: true,
-                sidebar: "docsSidebar"
-              },
-              {
-                path: '/docs/module-2-digital-twin/chapter-4/section-4-3-depth-sensor',
-                component: ComponentCreator('/docs/module-2-digital-twin/chapter-4/section-4-3-depth-sensor', '4b3'),
-                exact: true,
-                sidebar: "docsSidebar"
-              },
-              {
-                path: '/docs/module-2-digital-twin/chapter-4/section-4-4-sensor-data-processing',
-                component: ComponentCreator('/docs/module-2-digital-twin/chapter-4/section-4-4-sensor-data-processing', '9b8'),
-                exact: true,
-                sidebar: "docsSidebar"
-              },
-              {
-                path: '/docs/module-2-digital-twin/chapter-5/section-5-1-high-fidelity-visualization',
-                component: ComponentCreator('/docs/module-2-digital-twin/chapter-5/section-5-1-high-fidelity-visualization', '630'),
-                exact: true,
-                sidebar: "docsSidebar"
-              },
-              {
-                path: '/docs/module-2-digital-twin/chapter-5/section-5-2-rendering-techniques',
-                component: ComponentCreator('/docs/module-2-digital-twin/chapter-5/section-5-2-rendering-techniques', 'c5c'),
-                exact: true,
-                sidebar: "docsSidebar"
-              },
-              {
-                path: '/docs/module-2-digital-twin/chapter-5/section-5-3-human-robot-interaction',
-                component: ComponentCreator('/docs/module-2-digital-twin/chapter-5/section-5-3-human-robot-interaction', 'cfd'),
                 exact: true,
                 sidebar: "docsSidebar"
               },

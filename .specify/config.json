@@ -1,0 +1,30 @@
+{
+  "projectName": "ai-robotics-book",
+  "version": "1.0.0",
+  "description": "A comprehensive book on AI Robotics with practical examples and implementations",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliza-moin18/physical-ai-humanoid-robotics.git"
+  },
+  "specify": {
+    "templatesDir": ".specify/templates",
+    "scriptsDir": ".specify/scripts",
+    "memoryDir": ".specify/memory",
+    "historyDir": "history",
+    "specsDir": "specs",
+    "docsDir": "docs",
+    "defaultAgent": "qwen",
+    "phrDir": "history/prompts"
+  },
+  "features": [
+    "module-1-ros2",
+    "module-2-digital-twin-simulation", 
+    "module-3-ai-robot-brain",
+    "book-content",
+    "embeddings-ingestion"
+  ],
+  "developmentWorkflow": {
+    "stages": ["spec", "plan", "tasks", "red", "green", "refactor"],
+    "standards": ["documentation-first", "educational-focus", "test-first", "integration-testing", "accessibility", "innovation"]
+  }
+}

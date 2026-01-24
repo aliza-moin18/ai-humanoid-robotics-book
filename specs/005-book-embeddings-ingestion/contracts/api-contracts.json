@@ -1,0 +1,237 @@
+# API Contracts: Book Embeddings Ingestion
+
+## Overview
+This document defines the API contracts for the book embeddings ingestion system based on the functional requirements.
+
+## Ingestion Service API
+
+### 1. Ingest Book Content
+**Endpoint**: `POST /api/v1/ingest`
+**Purpose**: Crawl and extract content from a book URL
+
+#### Request
+```json
+{
+  "url": "https://example-book.vercel.app",
+  "options": {
+    "include_pages": [],
+    "exclude_patterns": [],
+    "max_pages": 1000
+  }
+}
+```
+
+#### Response (Success)
+```json
+{
+  "job_id": "ingest-job-12345",
+  "status": "processing",
+  "source_url": "https://example-book.vercel.app",
+  "estimated_completion": "2023-10-05T14:30:00Z",
+  "created_at": "2023-10-05T14:00:00Z"
+}
+```
+
+#### Response (Error)
+```json
+{
+  "error": "invalid_url",
+  "message": "The provided URL is not accessible or not a valid book site",
+  "details": {
+    "url": "https://example-book.vercel.app",
+    "status_code": 404
+  }
+}
+```
+
+### 2. Get Ingestion Status
+**Endpoint**: `GET /api/v1/ingest/{job_id}`
+**Purpose**: Check the status of an ongoing ingestion job
+
+#### Response
+```json
+{
+  "job_id": "ingest-job-12345",
+  "status": "completed",
+  "progress": 100,
+  "total_pages": 250,
+  "processed_pages": 250,
+  "failed_pages": 0,
+  "started_at": "2023-10-05T14:00:00Z",
+  "completed_at": "2023-10-05T14:25:00Z",
+  "summary": {
+    "total_chunks": 500,
+    "total_tokens": 125000,
+    "total_embeddings": 500
+  }
+}
+```
+
+## Embedding Service API
+
+### 3. Generate Embeddings
+**Endpoint**: `POST /api/v1/embeddings/generate`
+**Purpose**: Generate embeddings for text chunks
+
+#### Request
+```json
+{
+  "chunks": [
+    {
+      "id": "chunk-1",
+      "content": "This is the first text chunk...",
+      "metadata": {
+        "source_url": "https://example-book.vercel.app/chapter-1",
+        "location": "Chapter 1, page 5"
+      }
+    }
+  ],
+  "model": "embed-multilingual-v3.0",
+  "input_type": "search_document"
+}
+```
+
+#### Response (Success)
+```json
+{
+  "job_id": "embed-job-67890",
+  "status": "completed",
+  "model": "embed-multilingual-v3.0",
+  "embeddings": [
+    {
+      "chunk_id": "chunk-1",
+      "embedding": [0.1, 0.3, -0.2, ...],
+      "embedding_size": 1024
+    }
+  ]
+}
+```
+
+#### Response (Error)
+```json
+{
+  "error": "embedding_generation_failed",
+  "message": "Failed to generate embeddings due to API error",
+  "details": {
+    "failed_chunks": ["chunk-1"],
+    "reason": "API rate limit exceeded"
+  }
+}
+```
+
+## Storage Service API
+
+### 4. Store Embeddings
+**Endpoint**: `POST /api/v1/storage/store`
+**Purpose**: Store embeddings in the vector database
+
+#### Request
+```json
+{
+  "embeddings": [
+    {
+      "chunk_id": "chunk-1",
+      "embedding": [0.1, 0.3, -0.2, ...],
+      "payload": {
+        "text_chunk_id": "chunk-1",
+        "source_url": "https://example-book.vercel.app/chapter-1",
+        "source_location": "Chapter 1, page 5",
+        "book_title": "Example Book Title",
+        "book_author": "Author Name"
+      }
+    }
+  ],
+  "collection_name": "book_embeddings"
+}
+```
+
+#### Response (Success)
+```json
+{
+  "status": "success",
+  "stored_count": 1,
+  "collection_name": "book_embeddings",
+  "indexed_points": ["point-id-123"]
+}
+```
+
+### 5. Search Embeddings
+**Endpoint**: `POST /api/v1/storage/search`
+**Purpose**: Perform vector similarity search
+
+#### Request
+```json
+{
+  "query_embedding": [0.2, -0.1, 0.4, ...],
+  "collection_name": "book_embeddings",
+  "limit": 5,
+  "with_payload": true,
+  "with_vectors": false
+}
+```
+
+#### Response
+```json
+{
+  "results": [
+    {
+      "id": "point-id-123",
+      "score": 0.85,
+      "payload": {
+        "text_chunk_id": "chunk-1",
+        "source_url": "https://example-book.vercel.app/chapter-1",
+        "source_location": "Chapter 1, page 5",
+        "content": "This is the matching text content..."
+      }
+    }
+  ],
+  "query_time_ms": 12.5
+}
+```
+
+## Configuration Service API
+
+### 6. Get Configuration
+**Endpoint**: `GET /api/v1/config`
+**Purpose**: Retrieve current configuration settings
+
+#### Response
+```json
+{
+  "config": {
+    "chunk_size": 512,
+    "chunk_overlap": 50,
+    "embedding_model": "embed-multilingual-v3.0",
+    "qdrant_collection": "book_embeddings",
+    "cohere_api_key_set": true,
+    "qdrant_api_key_set": true
+  }
+}
+```
+
+### 7. Update Configuration
+**Endpoint**: `PUT /api/v1/config`
+**Purpose**: Update configuration settings
+
+#### Request
+```json
+{
+  "config": {
+    "chunk_size": 1024,
+    "chunk_overlap": 100,
+    "embedding_model": "embed-multilingual-v3.0"
+  }
+}
+```
+
+#### Response
+```json
+{
+  "status": "updated",
+  "updated_config": {
+    "chunk_size": 1024,
+    "chunk_overlap": 100,
+    "embedding_model": "embed-multilingual-v3.0"
+  }
+}
+```

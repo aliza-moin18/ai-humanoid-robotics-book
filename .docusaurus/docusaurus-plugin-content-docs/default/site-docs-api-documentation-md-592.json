@@ -1,0 +1,15 @@
+{
+  "id": "api_documentation",
+  "title": "RAG Agent API Documentation",
+  "description": "This document provides information about the RAG Agent API endpoints and how to use them.",
+  "source": "@site/docs/api_documentation.md",
+  "sourceDirName": ".",
+  "slug": "/api_documentation",
+  "permalink": "/docs/api_documentation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aliza-moin18/ai-humanoid-robotics-book/tree/main/docs/api_documentation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

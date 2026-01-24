@@ -4,7 +4,7 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Physical AI & Humanoid Robotics - Book ",
+  "title": "Physical AI & Humanoid Robotics - Book",
   "tagline": "From Simulated Brains to Embodied Intelligence",
   "favicon": "img/favicon.ico",
   "future": {
@@ -28,11 +28,9 @@ export default {
     },
     "experimental_router": "browser"
   },
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://ai-humanoid-robotics-book-tau.vercel.app",
   "baseUrl": "/",
-  "organizationName": "your-github-username",
-  "projectName": "ai-robotics-book",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -47,7 +45,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/"
+          "editUrl": "https://github.com/aliza-moin18/ai-humanoid-robotics-book/tree/main/"
         },
         "blog": {
           "showReadingTime": true,
@@ -58,7 +56,7 @@ export default {
             ],
             "xslt": true
           },
-          "editUrl": "https://github.com/your-github-username/ai-robotics-book/tree/main/",
+          "editUrl": "https://github.com/aliza-moin18/ai-humanoid-robotics-book/tree/main/",
           "onInlineTags": "warn",
           "onInlineAuthors": "warn",
           "onUntruncatedBlogPosts": "warn"
@@ -90,7 +88,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/your-github-username/ai-robotics-book",
+          "href": "https://github.com/aliza-moin18/ai-humanoid-robotics-book",
           "label": "GitHub",
           "position": "right"
         }

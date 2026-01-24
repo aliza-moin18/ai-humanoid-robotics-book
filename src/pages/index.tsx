@@ -7,103 +7,89 @@ export default function Home() {
   return (
     <Layout
       title="Physical AI & Humanoid Robotics"
-      description="Hands-On Capstone Textbook for Humanoid Robotics"
+      description="Hands-On Capstone Textbook for Physical AI and Robotics"
     >
-      {/* Hero Section */}
-      <header className={styles.hero}>
-        <div className={styles.heroContent}>
-          <h1 className={styles.heroTitle}>
-            Physical AI & Humanoid Robotics
-          </h1>
-          <p className={styles.heroSubtitle}>
-            From Simulated Brains to Embodied Intelligence
-          </p>
-          <p className={styles.heroDesc}>
-            A Hands-On Capstone Textbook using ROS 2, Gazebo, NVIDIA Isaac Sim, and Vision-Language-Action Models
-          </p>
-          <div className={styles.buttons}>
-            <Link className={styles.primaryButton} to="/docs/module-1-ros2-fundamentals">
-              Start Reading →
-            </Link>
+
+<section className="hero">
+  <div className="heroContent">
+    <h1 className="heroTitle">Physical AI & Humanoid Robotics</h1>
+    <p className="heroSubtitle">
+      Engineering-first textbook for building intelligent robotic systems
+    </p>
+    <p className="heroDesc">
+      Learn, simulate, and implement AI-powered humanoid robots with hands-on examples and modules.
+    </p>
+    <a href="#modules" className="heroButton">Start the Reading</a>
+  </div>
+
+  <div className="heroImages">
+    <img
+      src="/img/new.png"
+      alt="Robot Right"
+      className={styles.heroImageRight} 
+     />
+  </div>
+</section>
+
+
+      {/* MODULES */}
+      <section className={styles.section}>
+        <h2 className={styles.sectionTitle}>Book Modules</h2>
+        <div className={styles.grid}>
+          <div className={styles.card}>
+            <h3>ROS 2 Fundamentals</h3>
+            <p>
+              Nodes, topics, services, robot description, and simulation fundamentals.
+            </p>
+            <Link to="/docs/module-1-ros2-fundamentals">Read Module →</Link>
           </div>
-        </div>
-      </header>
 
-      {/* Modules Overview Section */}
-      <section className={styles.modulesSection}>
-        <div className="container">
-          <h2 className={styles.sectionTitle}>Explore the Modules</h2>
-          <div className={styles.modulesGrid}>
-            <div className={styles.moduleCard}>
-              <h3>Module 1: ROS 2 Fundamentals</h3>
-              <p>Master the robotic nervous system: nodes, topics, services, URDF, and simulation basics.</p>
-              <Link to="/docs/module-1-ros2-fundamentals" className={styles.cardLink}>
-                Start Module 1 →
-              </Link>
-            </div>
-
-            <div className={styles.moduleCard}>
-              <h3>Module 2: Digital Twin</h3>
-              <p>Build high-fidelity simulations with Gazebo and Unity for sensor integration and visualization.</p>
-              <Link to="/docs/module-2-digital-twin" className={styles.cardLink}>
-                Start Module 2 →
-              </Link>
-            </div>
-
-            <div className={styles.moduleCard}>
-              <h3>Module 3: AI Robot Brain</h3>
-              <p>Advanced AI training, sim-to-real transfer, and embodied intelligence deployment.</p>
-              <Link to="/docs/module-3-ai-robot-brain" className={styles.cardLink}>
-                Start Module 3 →
-              </Link>
-            </div>
+          <div className={styles.card}>
+            <h3>Digital Twins</h3>
+            <p>
+              Build realistic simulation environments using Gazebo and Isaac Sim.
+            </p>
+            <Link to="/docs/module-2-digital-twin/chapter-1/">Read Module →</Link>
           </div>
-        </div>
-      </section>
 
-      {/* Features Section */}
-      <section className={styles.featuresSection}>
-        <div className="container">
-          <h2 className={styles.sectionTitle}>Why This Book?</h2>
-          <div className={styles.featuresGrid}>
-            <div className={styles.featureItem}>
-              <h3>Hands-On Approach</h3>
-              <p>Real code examples, labs, and projects you can run yourself.</p>
-            </div>
-            <div className={styles.featureItem}>
-              <h3>From Simulation to Real World</h3>
-              <p>Learn sim-to-real transfer and deployment techniques.</p>
-            </div>
-            <div className={styles.featureItem}>
-              <h3>Modern Tools</h3>
-              <p>ROS 2, Gazebo, Isaac Sim, and cutting-edge AI models.</p>
-            </div>
+          <div className={styles.card}>
+            <h3>AI Robot Brain</h3>
+            <p>
+              Train embodied AI models and deploy them into real robotic systems.
+            </p>
+            <Link to="/docs/module-3-ai-robot-brain/chapter-11/section-11-1-sim-to-real-transfer-techniques">Read Module →</Link>
           </div>
         </div>
       </section>
 
-    {/* Polished Footer */}
-      <footer className={styles.footer}>
-        <div className="container">
-          <div className={styles.footerTop}>
-            <div className={styles.footerLogo}>
-              <img src="/img/robo.png" alt="AI Robotics Book" className={styles.logoImg} />
-              <span>Physical AI & Humanoid Robotics</span>
-            </div>
-
-            <div className={styles.footerLinks}>
-              <Link to="/">Home</Link>
-              <Link to='/docs/module-1-ros2-fundamentals'>Modules 1</Link>
-              <Link to='/docs/module-2-digital-twin/chapter-1/'>Module 2</Link>
-              <Link to='/docs/module-3-ai-robot-brain/chapter-11/section-11-1-sim-to-real-transfer-techniques'>Module 3</Link>
-            </div>
+      {/* WHY */}
+      <section className={`${styles.section} ${styles.sectionGray}`}>
+        <h2 className={styles.sectionTitle}>Why This Book?</h2>
+        <div className={styles.grid}>
+          <div className={styles.card}>
+            <h3>Engineering First</h3>
+            <p>Focused on systems, not hype. Real tools, real workflows.</p>
           </div>
-
-          <p className={styles.copyright}>
-            © {new Date().getFullYear()} Physical AI & Humanoid Robotics Book. All rights reserved.
-          </p>
+          <div className={styles.card}>
+            <h3>Sim to Real</h3>
+            <p>Learn how to move from simulation into physical robots.</p>
+          </div>
+          <div className={styles.card}>
+            <h3>Modern Stack</h3>
+            <p>ROS 2, Isaac Sim, Gazebo, and AI-based robot control.</p>
+          </div>
         </div>
-      </footer>
+      </section>
+
+      {/* ================= PROFESSIONAL FOOTER ================= */}
+<footer className={styles.footer}>
+
+  {/* BOTTOM BAR */}
+  <div className={styles.footerBottom}>
+    © {new Date().getFullYear()} Aliza Moin · Physical AI & Humanoid Robotics
+  </div>
+</footer>
+
     </Layout>
   );
 }
