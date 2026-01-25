@@ -3,9 +3,11 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+  background: #ec1111;
 }
 
 .featureSvg {
   height: 200px;
   width: 200px;
+  filter: invert(90%) sepia(5%) saturate(1000%) hue-rotate(280deg);
 }

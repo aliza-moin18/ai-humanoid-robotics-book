@@ -1,0 +1,113 @@
+# OpenAPI Contract: Retrieval API
+
+## /query (POST)
+
+### Description
+Endpoint for retrieving relevant book content chunks based on user queries. Supports both general queries and queries with optional selected text context.
+
+### Request
+- **Method**: POST
+- **Path**: /query
+- **Content-Type**: application/json
+
+#### Request Body
+```json
+{
+  "user_query": "string (required, 1-1000 chars)",
+  "selected_text": "string (optional, 0-2000 chars)"
+}
+```
+
+#### Request Body Schema
+```yaml
+type: object
+properties:
+  user_query:
+    type: string
+    description: The main query text from the user
+    minLength: 1
+    maxLength: 1000
+  selected_text:
+    type: string
+    description: Optional selected/highlighted text for context
+    minLength: 0
+    maxLength: 2000
+required:
+  - user_query
+```
+
+### Response
+- **Success Response**: 200 OK
+- **Error Response**: 400 Bad Request, 500 Internal Server Error
+
+#### Success Response Schema
+```yaml
+type: object
+properties:
+  chunks:
+    type: array
+    items:
+      type: object
+      properties:
+        text:
+          type: string
+          description: Full text content of the chunk
+        source_url:
+          type: string
+          description: URL or section reference where the chunk originated
+        relevance_score:
+          type: number
+          description: Numerical score indicating similarity to the query
+          minimum: 0
+          maximum: 1
+      required:
+        - text
+        - source_url
+        - relevance_score
+      maxItems: 5
+  query_time:
+    type: number
+    description: Time taken to process the query in seconds
+```
+
+#### Example Success Response
+```json
+{
+  "chunks": [
+    {
+      "text": "ROS2 (Robot Operating System 2) is a flexible framework for writing robot applications...",
+      "source_url": "https://book.example.com/ros2/introduction#fundamentals",
+      "relevance_score": 0.92
+    },
+    {
+      "text": "The ROS2 architecture consists of nodes, topics, services, and actions that enable...",
+      "source_url": "https://book.example.com/ros2/architecture#overview",
+      "relevance_score": 0.87
+    }
+  ],
+  "query_time": 0.245
+}
+```
+
+#### Error Response Schema
+```yaml
+type: object
+properties:
+  error:
+    type: string
+    description: Error message describing what went wrong
+```
+
+#### Example Error Response
+```json
+{
+  "error": "Invalid query: user_query must be between 1 and 1000 characters"
+}
+```
+
+### Performance Requirements
+- 95% of requests should respond in under 1 second
+- Endpoint should handle concurrent requests efficiently
+
+### Authentication
+- No authentication required for this endpoint

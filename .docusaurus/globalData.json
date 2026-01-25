@@ -11,6 +11,10 @@
           "mainDocId": "module-1-ros2-fundamentals/index",
           "docs": [
             {
+              "id": "api_documentation",
+              "path": "/docs/api_documentation"
+            },
+            {
               "id": "module-1-ros2-fundamentals/chapter-1/index",
               "path": "/docs/module-1-ros2-fundamentals/chapter-1/",
               "sidebar": "docsSidebar"
@@ -158,41 +162,6 @@
             {
               "id": "module-2-digital-twin/chapter-3/section-3-4-environmental-physics",
               "path": "/docs/module-2-digital-twin/chapter-3/section-3-4-environmental-physics",
-              "sidebar": "docsSidebar"
-            },
-            {
-              "id": "module-2-digital-twin/chapter-4/section-4-1-lidar-simulation",
-              "path": "/docs/module-2-digital-twin/chapter-4/section-4-1-lidar-simulation",
-              "sidebar": "docsSidebar"
-            },
-            {
-              "id": "module-2-digital-twin/chapter-4/section-4-2-imu-implementation",
-              "path": "/docs/module-2-digital-twin/chapter-4/section-4-2-imu-implementation",
-              "sidebar": "docsSidebar"
-            },
-            {
-              "id": "module-2-digital-twin/chapter-4/section-4-3-depth-sensor",
-              "path": "/docs/module-2-digital-twin/chapter-4/section-4-3-depth-sensor",
-              "sidebar": "docsSidebar"
-            },
-            {
-              "id": "module-2-digital-twin/chapter-4/section-4-4-sensor-data-processing",
-              "path": "/docs/module-2-digital-twin/chapter-4/section-4-4-sensor-data-processing",
-              "sidebar": "docsSidebar"
-            },
-            {
-              "id": "module-2-digital-twin/chapter-5/section-5-1-high-fidelity-visualization",
-              "path": "/docs/module-2-digital-twin/chapter-5/section-5-1-high-fidelity-visualization",
-              "sidebar": "docsSidebar"
-            },
-            {
-              "id": "module-2-digital-twin/chapter-5/section-5-2-rendering-techniques",
-              "path": "/docs/module-2-digital-twin/chapter-5/section-5-2-rendering-techniques",
-              "sidebar": "docsSidebar"
-            },
-            {
-              "id": "module-2-digital-twin/chapter-5/section-5-3-human-robot-interaction",
-              "path": "/docs/module-2-digital-twin/chapter-5/section-5-3-human-robot-interaction",
               "sidebar": "docsSidebar"
             },
             {

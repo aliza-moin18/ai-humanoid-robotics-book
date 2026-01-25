@@ -1,143 +1,142 @@
-# Dependencies
-node_modules/
+######################################
+# Python
+######################################
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.py.class
 .Python
-env/
+.python-version
+
+######################################
+# Virtual Environments
+######################################
 venv/
+env/
 .venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
+ENV/
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+######################################
+# RAG / Vector DB / Sensitive Data (VERY IMPORTANT - DO NOT COMMIT)
+######################################
+rag/vectorstore/
+rag/**/vectorstore/
+vectorstore/
+**/vectorstore/
+*.faiss
+*.pkl
+*.pickle
+chroma/
+qdrant/
+pinecone_data/
+embeddings_cache/
+*.chroma
+*.index
+
+######################################
+# Secrets / API Keys / Configs
+######################################
+secrets/
+config/secrets/
+*.key
+*.pem
+*.crt
+*.cer
+*.jks
+*.keystore
+
+######################################
+# Docusaurus / Node / Frontend
+######################################
+node_modules/
+.docusaurus/
+.docusaurus-cache-loader/
+build/
+dist/
+.cache/
+coverage/
+*.log
+
+######################################
+# Python tooling & Testing
+######################################
+.pytest_cache/
 .coverage
 .coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.DS_Store
-Thumbs.db
+htmlcov/
+.tox/
+.nox/
+site-packages/
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
 
-# Docusaurus
-build/
-docusaurus.config.js
-docusaurus.config.json
-.swcrc
-.next/
-.nyc_output
-out/
-dist/
-public/
-
-# Build outputs
-dist/
-build/
-*.dll
-*.exe
-*.o
-*.so
-*.dylib
-
-# Python/ROS
-*.pyc
-__pycache__/
-.pytest_cache/
-.eggs/
-*.egg-info/
-.Python
-*.py.class
-
-# IDE
+######################################
+# IDE / Editors
+######################################
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-
-# Environment
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-.env.*
-
-# OS
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# GitHub
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Temporary files
-*.tmp
-*.bak
-*.swp
-*~
-.project
-.idea
-*.tmproj
 *.sublime-project
 *.sublime-workspace
 
-# Simulation and Isaac specific
-isaac_sim_logs/
-isaac_sim_cache/
-isaac_sim_tmp/
-isaac_ros_ws/
-isaac_ws/
-.nvidia-omniverse/
-omniverse-apps/
-
-# ROS specific
-*.log
-*.log.*
-
-# Documentation
-docs-build/
-api/
-
-# Testing
-coverage/
-htmlcov/
-.pytest_cache/
-
-# System files
+######################################
+# OS generated files
+######################################
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
+ehthumbs.db
+desktop.ini
 
-# Docusaurus generated files
-.docusaurus/
-node_modules/
+######################################
+# Logs & Temporary files
+######################################
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+######################################
+# Distribution / Packaging
+######################################
 build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Old/unwanted folders
-my-book/
-docs copy/
-my book/
+######################################
+# Local development / Backup
+######################################
+local/
+settings_local.py
+*.bak
+*.orig
+*.rej
+.#*
+\#*\#

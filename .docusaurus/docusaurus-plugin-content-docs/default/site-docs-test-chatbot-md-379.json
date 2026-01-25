@@ -1,0 +1,24 @@
+{
+  "id": "test-chatbot",
+  "title": "Test Chatbot",
+  "description": "This page is to test if the chatbot is working properly. You should see a floating chatbot icon on the bottom right of the screen.",
+  "source": "@site/docs/test-chatbot.md",
+  "sourceDirName": ".",
+  "slug": "/test-chatbot",
+  "permalink": "/docs/test-chatbot",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aliza-moin18/ai-humanoid-robotics-book/tree/main/docs/test-chatbot.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Test Chatbot"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Chapter 11.17: Known Limitations and Future Enhancement Opportunities",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-11/section-11-17-known-limitations-and-future-enhancements"
+  }
+}

@@ -1,0 +1,203 @@
+openapi: 3.0.3
+info:
+  title: RAG Agent API
+  description: API for interacting with the RAG agent for the AI Robotics Book
+  version: 1.0.0
+servers:
+  - url: http://localhost:8000
+    description: Local development server
+paths:
+  /query:
+    post:
+      summary: Submit a query to the RAG agent
+      description: Sends a user query to the RAG agent and receives a contextual response
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/QueryRequest'
+      responses:
+        '200':
+          description: Successful response from the RAG agent
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RAGAgentResponse'
+        '400':
+          description: Bad request - invalid query format
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      tags:
+        - Query
+      x-codeSamples:
+        - lang: curl
+          label: cURL
+          source: |
+            curl -X POST http://localhost:8000/query \
+              -H "Content-Type: application/json" \
+              -d '{"query": "How does robot localization work?"}'
+        - lang: python
+          label: Python
+          source: |
+            import requests
+            
+            response = requests.post(
+                "http://localhost:8000/query",
+                json={"query": "How does robot localization work?"},
+            )
+            print(response.json())
+
+  /health:
+    get:
+      summary: Health check endpoint
+      description: Returns the health status of the API
+      responses:
+        '200':
+          description: API is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "healthy"
+                  timestamp:
+                    type: string
+                    example: "2023-10-01T12:00:00Z"
+      tags:
+        - Health
+
+components:
+  schemas:
+    QueryRequest:
+      type: object
+      required:
+        - query
+      properties:
+        query:
+          type: string
+          description: The user's query text
+          example: "How does robot localization work?"
+          minLength: 1
+          maxLength: 2000
+        session_id:
+          type: string
+          description: Identifier for the conversation session
+          format: uuid
+          example: "a1b2c3d4-e5f6-7890-1234-567890abcdef"
+        metadata:
+          type: object
+          description: Additional information about the query context
+          properties:
+            timestamp:
+              type: string
+              format: date-time
+            user_id:
+              type: string
+          example:
+            timestamp: "2023-10-01T12:00:00Z"
+            user_id: "user123"
+
+    RAGAgentResponse:
+      type: object
+      required:
+        - response
+        - query_id
+        - timestamp
+      properties:
+        response:
+          type: string
+          description: The agent's response to the query
+          example: "Robot localization is the process of determining a robot's position and orientation in a given environment..."
+        sources:
+          type: array
+          description: List of sources used to generate the response
+          items:
+            $ref: '#/components/schemas/SourceReference'
+        session_id:
+          type: string
+          description: Identifier for the conversation session
+          format: uuid
+          example: "a1b2c3d4-e5f6-7890-1234-567890abcdef"
+        query_id:
+          type: string
+          description: Unique identifier for this query-response pair
+          format: uuid
+          example: "q1r2s3t4-u5v6-7890-1234-567890fedcba"
+        timestamp:
+          type: string
+          description: ISO 8601 timestamp of response generation
+          format: date-time
+          example: "2023-10-01T12:00:05Z"
+
+    SourceReference:
+      type: object
+      required:
+        - title
+        - url
+        - relevance_score
+      properties:
+        title:
+          type: string
+          description: Title of the source document
+          example: "Chapter 5: Robot Localization Techniques"
+        url:
+          type: string
+          description: URL or path to the source
+          example: "/module-3/ai-robot-brain/chapter-5-localization"
+        page_number:
+          type: integer
+          description: Page number where information was found
+          example: 127
+        relevance_score:
+          type: number
+          description: Score indicating relevance to the query (0.0 to 1.0)
+          minimum: 0.0
+          maximum: 1.0
+          example: 0.92
+        content_snippet:
+          type: string
+          description: Brief excerpt from the source
+          example: "Localization is the process of..."
+
+    ErrorResponse:
+      type: object
+      required:
+        - error_code
+        - message
+        - timestamp
+      properties:
+        error_code:
+          type: string
+          description: Machine-readable error code
+          example: "AGENT_UNAVAILABLE"
+        message:
+          type: string
+          description: Human-readable error message
+          example: "The RAG agent is temporarily unavailable"
+        details:
+          type: object
+          description: Additional error details
+          example:
+            retry_after: 30
+        timestamp:
+          type: string
+          description: ISO 8601 timestamp of error
+          format: date-time
+          example: "2023-10-01T12:00:05Z"
+
+tags:
+  - name: Query
+    description: Endpoints for querying the RAG agent
+  - name: Health
+    description: Health check endpoints

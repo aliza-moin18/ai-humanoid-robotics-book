@@ -49,18 +49,22 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-96e": {
+  "/docs-d40": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-c1b": {
+  "/docs-8ce": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-26d": {
+  "/docs-061": {
     "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/api_documentation-ffb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-documentation-592-8b6"
   },
   "/docs/module-1-ros2-fundamentals/-7bc": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -181,34 +185,6 @@
   "/docs/module-2-digital-twin/chapter-3/section-3-4-environmental-physics-8cf": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-module-2-digital-twin-chapter-3-section-3-4-environmental-physics-39-f-046"
-  },
-  "/docs/module-2-digital-twin/chapter-4/section-4-1-lidar-simulation-8e0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-chapter-4-section-4-1-lidar-simulation-933-f19"
-  },
-  "/docs/module-2-digital-twin/chapter-4/section-4-2-imu-implementation-cdc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-chapter-4-section-4-2-imu-implementation-147-092"
-  },
-  "/docs/module-2-digital-twin/chapter-4/section-4-3-depth-sensor-4b3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-chapter-4-section-4-3-depth-sensor-3-b-7-fa5"
-  },
-  "/docs/module-2-digital-twin/chapter-4/section-4-4-sensor-data-processing-9b8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-chapter-4-section-4-4-sensor-data-processingeda-11d"
-  },
-  "/docs/module-2-digital-twin/chapter-5/section-5-1-high-fidelity-visualization-630": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-chapter-5-section-5-1-high-fidelity-visualizationd-92-ddc"
-  },
-  "/docs/module-2-digital-twin/chapter-5/section-5-2-rendering-techniques-c5c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-chapter-5-section-5-2-rendering-techniquesf-5-d-f48"
-  },
-  "/docs/module-2-digital-twin/chapter-5/section-5-3-human-robot-interaction-cfd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-chapter-5-section-5-3-human-robot-interactionaba-545"
   },
   "/docs/module-3-ai-robot-brain/chapter-11/section-11-1-sim-to-real-transfer-techniques-4b3": {
     "__comp": "__comp---theme-doc-item-178-a40",
