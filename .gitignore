@@ -1,65 +1,121 @@
+######################################
 # Python
+######################################
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.py.class
 .Python
-env/
-venv/
-.venv/
-.ENV
-.ENV.db
-.ENV.lock
 .python-version
+
+######################################
+# Virtual Environments
+######################################
+venv/
+env/
+.venv/
+ENV/
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+######################################
+# RAG / Vector DB / Sensitive Data (VERY IMPORTANT - DO NOT COMMIT)
+######################################
+rag/vectorstore/
+rag/**/vectorstore/
+vectorstore/
+**/vectorstore/
+*.faiss
+*.pkl
+*.pickle
+chroma/
+qdrant/
+pinecone_data/
+embeddings_cache/
+*.chroma
+*.index
+
+######################################
+# Secrets / API Keys / Configs
+######################################
+secrets/
+config/secrets/
+*.key
+*.pem
+*.crt
+*.cer
+*.jks
+*.keystore
+
+######################################
+# Docusaurus / Node / Frontend
+######################################
+node_modules/
+.docusaurus/
+.docusaurus-cache-loader/
+build/
+dist/
+.cache/
+coverage/
+*.log
+
+######################################
+# Python tooling & Testing
+######################################
 .pytest_cache/
 .coverage
+.coverage.*
 htmlcov/
 .tox/
-nox/
+.nox/
 site-packages/
-.Python
-ipython_config.py
-.pytest_cache/
-*.so
-.pyx
-.pyx.*
-.pyd
-*.py.class
-*.pyc.class
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
 
-# Virtual Environment
-venv/
-env/
-ENV/
-.venv/
-.env/
-
-# IDE
+######################################
+# IDE / Editors
+######################################
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+*.sublime-project
+*.sublime-workspace
 
-# OS
+######################################
+# OS generated files
+######################################
 .DS_Store
 Thumbs.db
+ehthumbs.db
+desktop.ini
 
-# Logs
+######################################
+# Logs & Temporary files
+######################################
 *.log
 logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
 
-# Environment variables
-.env
-
-# Coverage
-.coverage*
-htmlcov/
-
-# Distribution / packaging
-.Python
+######################################
+# Distribution / Packaging
+######################################
 build/
-develop-eggs/
 dist/
 downloads/
 eggs/
@@ -74,30 +130,13 @@ wheels/
 .installed.cfg
 *.egg
 
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-.nox/
-
-# Local configuration
+######################################
+# Local development / Backup
+######################################
 local/
 settings_local.py
-
-# Compiled
-*.class
-*.o
-*.a
-*.so
-*.dylib
-*.dll
-
-# Backup files
-*~
-.#*
 *.bak
 *.orig
 *.rej
-*~
+.#*
 \#*\#
-node_modules
